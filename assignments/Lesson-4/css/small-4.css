@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Architects+Daughter|Bangers|BenchNine|Kaushan+Script|Merienda');
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.leftcol, .rightcol {
+  max-width: 48%;
+  flex: 1 0 15em;
+  padding: 10px;
+}
+
+.motto {
+  color: #FF6932;
+  text-align: center;
+  vertical-align: top;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Architects Daughter', Tahoma, Geneva;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.column1 {
+  display: inline-block;
+  width: 76.5%;
+  vertical-align: top;
+  margin: o auto;  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1a0068;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Acme', Gadget, sans-serif;
+  font-size: 2.75em;
+  line-height: 1.1em;
+}
+
+p {
+  padding: 10px;
+  font-family: 'Architects Daughter', Tahoma, Geneva;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+nav {
+  background-color: #1a0068;
+  padding: 1em;
+  margin-top: -45px;
+  
+     }    
+nav a {
+  padding: 1em 1em;
+  color: #ffffff;
+  line-height: 3em;
+  text-decoration: none;
+  }
+
+nav li { 
+  font-family: 'Bangers', "Comic Sans MS", cursive;
+  list-style-type: none;
+  font-size: 1.75em;
+  padding-left: 100px;
+  display: block;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #D1FAFF;
+  color: #FF6932;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+}
+
+nav ul {
+margin: 0;
+}
+.sec1, .sec2, footer {
+ display: flex;
+ flex-flow: row wrap;
+ align-items: center;
+ justify-content: center;
+ padding: 10px; 
+}
+
+.sec2 {
+ background-color: #1A0068; 
+}
+
+.sec3 {
+  text-align: center;
+}
+
+.hspec, .pspec {
+  color: #FCFCFC;
+}
+img {
+  max-width: 100%;
+}
+#logo {
+  width: 185px;
+  position: inline-block;
+  background-color: #1A0068;
+  top: 10px;
+  left: 10px;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+.banner {
+  width: 100%;
+}
+.img1 {
+  width: 450px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.img2 {
+  width: 460px;
+  height: 420px;
+  border-radius: 5px;
+}
+
+.socialmedia {
+  padding: 10px;
+  float: right;
+}
+
+.icon {
+  width: 65px;
+  height: 65px; 
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#info {
+  font-size: 16px;
+}
+

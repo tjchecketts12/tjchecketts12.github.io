@@ -102,7 +102,7 @@ img {
   max-width: 100%;
 }
 #logo {
-  width: 185px;
+  width: 90px;
   position: inline-block;
   background-color: #1A0068;
   top: 10px;
@@ -141,4 +141,5 @@ img {
 #info {
   font-size: 16px;
 }
+
 

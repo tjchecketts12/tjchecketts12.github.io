@@ -63,6 +63,14 @@ h1 {
   border-radius: 5px;
 }
 
+header,
+nav,
+main,
+footer {
+    margin: auto;
+    max-width: 900px;
+}
+
 h2, h3, h4, h5, h6 {
   color: #1a0068;
   text-align: center;

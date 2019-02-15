@@ -39,7 +39,7 @@ header {
   display: inline-block;
   width: 65%;
   vertical-align: top;
-  margin: o auto;  
+  margin: 0 auto;  
 }
 
 h1 {
@@ -51,6 +51,16 @@ h1 {
   text-align: center;
   margin: 0 auto;
   width: 100%;
+}
+
+#logo {
+  width: 30%;
+  position: inline-block;
+  background-color: #1A0068;
+  top: 10px;
+  left: 10px;
+  border: 2px black solid;
+  border-radius: 5px;
 }
 
 h2, h3, h4, h5, h6 {

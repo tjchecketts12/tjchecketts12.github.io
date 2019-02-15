@@ -99,7 +99,7 @@ nav a.active {
 
 nav a:hover:not(.active) {
   background-color: #1A0068;
-  color: #FF6932;
+  color: #ffffff;
   border-radius: 5px;
   box-shadow: 5px 5px 5px black;
 }

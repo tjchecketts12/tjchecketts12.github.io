@@ -42,7 +42,19 @@ header {
   margin: 0 auto;  
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-family: 'Acme', Gadget, sans-serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  vertical-align: top;
+}
+
+h2, h3, h4, h5, h6 {
   color: #1a0068;
   text-align: center;
   padding: 10px;

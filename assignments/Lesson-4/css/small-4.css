@@ -92,7 +92,8 @@ nav a {
 }
 
 nav a.active {
-  background-color: #D1FAFF;
+  background-color: #FF6932;
+  color: #D1FAFF
 }
 
 nav a:hover:not(.active) {

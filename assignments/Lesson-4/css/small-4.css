@@ -64,14 +64,43 @@ h1 {
 }
 
 header, nav, main, footer {
-    margin: auto;
-    max-width: 900px;
+  margin: auto;
+  max-width: 900px;
 }
 
-nav ul {
+nav {
+  background-color: #1a0068;
+  padding: 1em;
+  margin-top: -45px;
   margin: 0;
   text-align: center;
-  }
+}
+  
+nav li { 
+  font-family: 'Bangers', "Comic Sans MS", cursive;
+  list-style-type: none;
+  font-size: 1rem;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a.active {
+  background-color: #D1FAFF;
+}
+
+nav a:hover:not(.active) {
+  background-color: #D1FAFF;
+  color: #FF6932;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+}
 
 h2, h3, h4, h5, h6 {
   color: #1a0068;
@@ -89,34 +118,7 @@ p {
   line-height: 1.5em;
 }
 
-nav {
-  background-color: #1a0068;
-  padding: 1em;
-  margin-top: -45px;
-  
-     }    
-nav a {
-  padding: 1em 1em;
-  color: #ffffff;
-  line-height: 3em;
-  text-decoration: none;
-  }
 
-nav li { 
-  font-family: 'Bangers', "Comic Sans MS", cursive;
-  list-style-type: none;
-  font-size: 1.75em;
-  padding-left: 100px;
-  display: block;
-  text-align: center;
-}
-
-nav a:hover {
-  background-color: #D1FAFF;
-  color: #FF6932;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px black;
-}
 
 
 .sec1, .sec2, footer {

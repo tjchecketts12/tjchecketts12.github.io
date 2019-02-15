@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Acme|Architects+Daughter|Bangers|BenchNine|Kaushan+Script|Merienda');
-
-#content {
-  max-width: 960px;
+* {
   margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
   background-color: #ffffff;
 }
 
-.leftcol, .rightcol {
-  max-width: 48%;
-  flex: 1 0 15em;
-  padding: 10px;
+header {
+  background-color: #1A0068;
 }
 
 .motto {
@@ -24,9 +23,9 @@
   display: inline-block;
 }
 
-.column1 {
+.column {
   display: inline-block;
-  width: 76.5%;
+  width: 65%;
   vertical-align: top;
   margin: o auto;  
 }

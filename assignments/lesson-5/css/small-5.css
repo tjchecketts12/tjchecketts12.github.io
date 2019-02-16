@@ -110,13 +110,7 @@
     text-align: center;
   }
   
-  h2, h3, h4, h5, h6 {
-    color: #1a0068;
-    text-align: left;
-    padding: 10px;
-    font-family: 'Acme', Gadget, sans-serif;
-    font-size: 1.25rem;
-  }
+
   
   p {
     padding: 10px;

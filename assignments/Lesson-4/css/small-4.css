@@ -55,7 +55,7 @@ h1 {
 
 #logo {
   width: 30%;
-  position: inline-block;
+  display: inline-block;
   background-color: #1A0068;
   top: 10px;
   left: 10px;

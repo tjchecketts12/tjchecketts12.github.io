@@ -55,7 +55,7 @@
   
   #logo {
     width: 30%;
-    position: inline-block;
+    display: inline-block;
     background-color: #1A0068;
     top: 10px;
     left: 10px;
@@ -71,9 +71,9 @@
   nav {
     background-color: #D1FAFF;
     padding: 0;
-    margin-top: -45px;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
+    display: block;
   }
     
   nav li { 
@@ -81,7 +81,6 @@
     list-style-type: none;
     font-size: 1rem;
     padding: 10px;
-    padding-left: 152px;
     display: block;
     text-align: center;
   }
@@ -103,9 +102,12 @@
     border-radius: 5px;
     box-shadow: 5px 5px 5px black;
   }
-
+  
   nav ul {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    text-align: center;
   }
   
   h2, h3, h4, h5, h6 {

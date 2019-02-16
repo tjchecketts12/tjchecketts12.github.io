@@ -104,6 +104,10 @@ nav a:hover:not(.active) {
   box-shadow: 5px 5px 5px black;
 }
 
+nav ul {
+  margin: 0;
+}
+
 h2, h3, h4, h5, h6 {
   color: #1a0068;
   text-align: left;

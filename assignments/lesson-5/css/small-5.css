@@ -99,8 +99,8 @@
   nav a:hover:not(.active) {
     background-color: #1A0068;
     color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px black;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px black;
   }
   
   nav ul {

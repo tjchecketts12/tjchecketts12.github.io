@@ -224,3 +224,9 @@ footer {
 .img1 {
     margin: 15px auto;
 }
+
+.tab {
+    float: left;
+    width: 20px;
+    height: 20px;
+}

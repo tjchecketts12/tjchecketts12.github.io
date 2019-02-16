@@ -168,14 +168,14 @@ footer {
     left: 20px;
     width: 40%;
     border: 2px solid #D1FAFF;
-    box-shadow: 10px 10px 10px #FF6932;
+    box-shadow: 5px 5px 5px #ffffff;
     border-radius: 5px;
-    background-color: #1A0068;
+    background-color: #D1FAFF;
     padding: 20px;
 }
 
 .summary h3 {
-    color: #ffffff;
+    color: #1A0068;
     text-align: center;
     font-size: 1.5em;
     text-decoration-line: underline;
@@ -188,7 +188,7 @@ footer {
 }
 .label {
     text-align: right;
-    color: #ffffff;
+    color: #1A0068;
 }
 
 .value {

@@ -134,14 +134,14 @@
  }
 
  .cname {
-    font-family: roboto, sans-serif;
+    font-family: 'Acme', Gadget, sans-serif;
     text-align: center;
     max-width: 768px;
     margin: .25em auto;
     font-size: 2rem;
     font-weight: bold;
-    background-color: #6c3108;
-    color: #f1efeb;
+    background-color: #1A0068;
+    color: #ffffff;
     padding: .75em;
 }
 
@@ -170,7 +170,7 @@
 }
 
 .summary h3 {
-    color: #f1efeb;
+    color: #ffffff;
     text-align: center;
     font-size: 1.5em;
     text-decoration-line: underline;
@@ -183,12 +183,12 @@
 }
 .label {
     text-align: right;
-    color: #f1efeb;
+    color: #ffffff;
 }
 
 .value {
     text-align: left;
-    color: #f8e917;
+    color: #FF6932;
 }
 
 .fiveday {

@@ -141,7 +141,7 @@ footer {
  .cname {
     font-family: 'Acme', Gadget, sans-serif;
     text-align: center;
-    max-width: 900px;
+    max-width: 768px;
     margin: .25em auto;
     font-size: 2rem;
     font-weight: bold;
@@ -151,13 +151,13 @@ footer {
 }
 
 .wsummary {
-    max-width: 900px;
+    max-width: 768px;
     margin: 0 auto;
     position: relative;
 
 }
 .cimage {
-    max-width: 900px;
+    max-width: 768px;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #D1FAFF; 
 }

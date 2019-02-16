@@ -222,7 +222,8 @@ footer {
 }
 
 .img1 {
-    margin: 30px;
+    margin: 0 auto;
+    float: center;
 }
 
 .tab {

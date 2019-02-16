@@ -1,0 +1,119 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #1A0068;
+  }
+  
+  .title {
+    font-family: 'Acme', Gadget, sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 10px;
+    text-shadow: 2px 2px 2px #1A0068;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    vertical-align: top;
+  }
+  
+  .motto {
+    font-family: 'Architects Daughter', Tahoma, Geneva;
+    font-size: 1rem;
+    color: #FF6932;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .column {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    margin: 0 auto;  
+  }
+  
+  h1 {
+    font-family: 'Acme', Gadget, sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  #logo {
+    width: 30%;
+    position: inline-block;
+    background-color: #1A0068;
+    top: 10px;
+    left: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+  }
+  
+  header, nav, main, footer {
+    margin: auto;
+    max-width: 900px;
+  }
+  
+  nav {
+    background-color: #D1FAFF;
+    padding: 0;
+    margin-top: -45px;
+    margin: 0;
+    text-align: center;
+  }
+    
+  nav li { 
+    font-family: 'Bangers', "Comic Sans MS", cursive;
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 10px;
+    padding-left: 152px;
+    display: block;
+    text-align: center;
+  }
+  
+  nav a {
+    padding: 1em 1em;
+    color: #1A0068;
+    text-decoration: none;
+  }
+  
+  nav a.active {
+    background-color: #FF6932;
+    color: #1A0068;
+  }
+  
+  nav a:hover:not(.active) {
+    background-color: #1A0068;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+  }
+  
+  h2, h3, h4, h5, h6 {
+    color: #1a0068;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Acme', Gadget, sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  p {
+    padding: 10px;
+    font-family: 'Architects Daughter', Tahoma, Geneva;
+    font-size: 1rem;
+  }

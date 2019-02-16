@@ -59,6 +59,11 @@
     font-size: 1rem;
   }
   
+footer {
+    background-color: #1A0068;
+    color: #ffffff;
+}
+
   #logo {
     width: 30%;
     display: inline-block;

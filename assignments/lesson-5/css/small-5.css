@@ -136,7 +136,7 @@
  .cname {
     font-family: 'Acme', Gadget, sans-serif;
     text-align: center;
-    max-width: 768px;
+    max-width: 900px;
     margin: .25em auto;
     font-size: 2rem;
     font-weight: bold;
@@ -146,15 +146,15 @@
 }
 
 .wsummary {
-    max-width: 768px;
+    max-width: 900px;
     margin: 0 auto;
     position: relative;
 
 }
 .cimage {
-    max-width: 768px;
+    max-width: 900px;
     margin: 0 auto;
-    box-shadow: 5px 5px 10px #aaaaaa; 
+    box-shadow: 5px 5px 10px #D1FAFF; 
 }
 
 .summary {
@@ -162,10 +162,10 @@
     top: 20px;
     left: 20px;
     width: 40%;
-    border: 2px solid #212930;
-    box-shadow: 10px 10px 10px #21293021;
+    border: 2px solid #D1FAFF;
+    box-shadow: 10px 10px 10px #FF6932;
     border-radius: 5px;
-    background-color: #212930a8;
+    background-color: #1A0068;
     padding: 20px;
 }
 

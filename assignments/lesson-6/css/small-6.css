@@ -1,0 +1,232 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #1A0068;
+  }
+  
+  .title {
+    font-family: 'Acme', Gadget, sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 10px;
+    text-shadow: 2px 2px 2px #1A0068;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    vertical-align: top;
+  }
+  
+  .motto {
+    font-family: 'Architects Daughter', Tahoma, Geneva;
+    font-size: 1rem;
+    color: #FF6932;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .column {
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    margin: 0 auto;  
+  }
+  
+  h1 {
+    font-family: 'Acme', Gadget, sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  p {
+    padding: 10px;
+    font-family: 'Architects Daughter', Tahoma, Geneva;
+    font-size: 1rem;
+  }
+  
+footer {
+    background-color: #1A0068;
+    color: #ffffff;
+}
+
+  #logo {
+    width: 30%;
+    display: inline-block;
+    background-color: #1A0068;
+    top: 10px;
+    left: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+  }
+  
+  header, nav, main, footer {
+    margin: auto;
+    max-width: 900px;
+  }
+  
+  nav {
+    background-color: #D1FAFF;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+    
+  nav li { 
+    font-family: 'Bangers', "Comic Sans MS", cursive;
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+  
+  nav a {
+    padding: 1em 1em;
+    color: #1A0068;
+    text-decoration: none;
+  }
+  
+  nav a.active {
+    background-color: #FF6932;
+    color: #1A0068;
+  }
+  
+  nav a:hover:not(.active) {
+    background-color: #1A0068;
+    color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px black;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .navigation { 
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  
+ .navigation li:first-child {
+     display: block;
+ }
+
+ .navigation li {
+     display: none;
+ }
+
+ .responsive li {
+     display: block;
+ }
+
+ .cname {
+    font-family: 'Acme', Gadget, sans-serif;
+    text-align: center;
+    max-width: 768px;
+    margin: .25em auto;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #1A0068;
+    color: #ffffff;
+    padding: .75em;
+}
+
+.wsummary {
+    max-width: 768px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.cimage {
+    max-width: 768px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #D1FAFF; 
+}
+
+.summary {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40%;
+    border: 2px solid #D1FAFF;
+    box-shadow: 5px 5px 5px #ebfdff;
+    border-radius: 5px;
+    background-color: #D1FAFF;
+    padding: 20px;
+}
+
+.summary h3 {
+    color: #1A0068;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration-line: underline;
+}
+
+.summdet {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+}
+.label {
+    text-align: right;
+    color: #1A0068;
+}
+
+.value {
+    text-align: left;
+    color: #FF6932;
+}
+
+.fiveday {
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    display: none;
+}
+
+.ficon img {
+    max-width: 50px;
+}
+
+.fiveday h4 {
+    padding: 10px;
+}
+
+.forecast {
+    border: 1px solid #1A0068;
+    column-width: 100px;
+}
+
+.forecast th {
+    border-bottom: 1px solid #1A0068;
+    font-size: .6em;
+}
+
+.img1 {
+    margin: 50px auto;
+}
+
+.tab {
+    float: left;
+    width: 20px;
+    height: 20px;
+}

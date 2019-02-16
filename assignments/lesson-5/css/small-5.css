@@ -152,8 +152,7 @@
 
 }
 .cimage {
-    width: 416px;
-    height: 273px;
+    max-width: 768px;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #aaaaaa; 
 }

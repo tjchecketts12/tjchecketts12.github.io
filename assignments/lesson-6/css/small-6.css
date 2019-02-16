@@ -62,6 +62,7 @@
 footer {
     background-color: #1A0068;
     color: #ffffff;
+    text-align: center;
 }
 
   #logo {
@@ -229,4 +230,8 @@ footer {
     float: left;
     width: 20px;
     height: 20px;
+}
+.socialmedia {
+  padding: 10px;
+  float: right;
 }

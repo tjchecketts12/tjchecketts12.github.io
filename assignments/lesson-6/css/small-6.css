@@ -317,6 +317,6 @@ article p {
   color: #D1FAFF;
 }
 
-:visited {
+:visited:active {
   color: #ffffff;
 }

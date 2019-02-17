@@ -265,7 +265,7 @@ article h5 {
 article img {
   width: 100%;
   max-width: 300px;
-  display: block;
+  float: right;
   margin: 10px auto;
   box-shadow: 0 0 10px 5px #000000;
 }

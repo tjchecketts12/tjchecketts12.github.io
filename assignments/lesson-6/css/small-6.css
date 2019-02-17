@@ -70,14 +70,11 @@ footer {
     margin: 0 auto;
 }
 
-  #logo {
-    width: 30%;
+  header img {
+    max-width: 50px;
     display: inline-block;
     background-color: #1A0068;
-    top: 10px;
-    left: 10px;
-    border: 2px black solid;
-    border-radius: 5px;
+    padding: 5px;
   }
   
   header, nav, main, footer {
@@ -249,7 +246,7 @@ footer {
 }
 .socialmedia {
 padding: 10px;
-float: right;
+display: inline;
 }
 
 article h4, article h5 {
@@ -270,7 +267,7 @@ article h5 {
 article img {
   width: 100%;
   max-width: 300px;
-  float: right;
+  display: block;
   margin: 10px auto;
   box-shadow: 0 0 10px 5px #000000;
 }

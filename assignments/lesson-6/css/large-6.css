@@ -1,14 +1,30 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 32.5em) {
 
-    .navigation li:first-child {
-        display: none;
+navigation li:first-child {
+    display: none;
     }
 
-    .navigation li {
-        display: inline-block;
+.navigation li {
+    display: inline-block;
     }
 .fiveday {
     display: block;
+}
+
+header img {
+    max-width: 115px;
+    width: 115px;
+    height: auto;
+}
+
+.title {
+    font-size: 3em;
+}
+
+article img {
+    display: inline-block;
+    float: right;
+    margin-left: 15px;
 }
 
 }

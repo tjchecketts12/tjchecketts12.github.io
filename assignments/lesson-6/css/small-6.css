@@ -239,13 +239,8 @@ footer {
   margin: 50px auto;
 }
 
-.tab {
-  float: left;
-  width: 20px;
-  height: 20px;
-}
 .socialmedia {
-padding: 10px;
+border: none;
 display: inline;
 }
 
@@ -307,7 +302,7 @@ article p {
 #map {
   max-width: 250px;
   margin: 10px auto;
-  float: left;
+  display: inline-block;
   border: 2px solid #D1FAFF;
 }
 

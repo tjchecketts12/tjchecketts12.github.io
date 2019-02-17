@@ -7,6 +7,7 @@ navigation li:first-child {
 .navigation li {
     display: inline-block;
     }
+    
 .fiveday {
     display: block;
 }

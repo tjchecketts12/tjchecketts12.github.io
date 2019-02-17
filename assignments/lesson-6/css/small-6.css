@@ -233,6 +233,20 @@ footer {
     width: 20%;
 }
 
+.img1 {
+  margin: 50px auto;
+}
+
+.tab {
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+.socialmedia {
+padding: 10px;
+float: right;
+}
+
 article h4, article h5 {
     font-family: 'Acme', Gadget, sans-serif;
     padding: 5px;
@@ -247,14 +261,13 @@ article h5 {
     font-size: .75em;
     color: #ffffff;
 }
+
 article img {
   width: 100%;
   max-width: 300px;
   display: block;
   margin: 10px auto;
   box-shadow: 0 0 10px 5px #000000;
-
-
 }
 
 article {
@@ -267,6 +280,7 @@ article {
 
 article p {
   margin: 10px auto;
+  color: #ffffff;
 }
 
 .img1 {

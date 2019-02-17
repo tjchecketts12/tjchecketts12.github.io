@@ -311,5 +311,12 @@ article p {
   margin: 10px auto;
   padding: 10px;
   vertical-align: top;
+}
 
+:link:active {
+  color: #D1FAFF;
+}
+
+:visited:active {
+  color: #ffffff;
 }

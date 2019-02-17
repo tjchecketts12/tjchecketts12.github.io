@@ -143,12 +143,12 @@ footer {
     font-family: 'Acme', Gadget, sans-serif;
     text-align: center;
     max-width: 768px;
-    margin: .25em auto;
-    font-size: 2rem;
+    margin: 15px auto;
+    font-size: 1.25rem;
     font-weight: bold;
     background-color: #1A0068;
     color: #ffffff;
-    padding: .75em;
+    padding: .5em;
 }
 
 .wsummary {
@@ -158,6 +158,7 @@ footer {
 
 }
 .cimage {
+    width: 100%;
     max-width: 768px;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #D1FAFF; 
@@ -173,11 +174,15 @@ footer {
     border-radius: 5px;
     background-color: #D1FAFF;
     padding: 20px;
+    line-height: 1.2em;
+    letter-spacing: .12em;
 }
 
 .summary h3 {
     color: #1A0068;
     text-align: center;
+    font-weight: inherit;
+    line-height: 1.7em;
     font-size: 1.5em;
     text-decoration-line: underline;
 }
@@ -190,11 +195,15 @@ footer {
 .label {
     text-align: right;
     color: #1A0068;
+    display: inline-block;
+    width: 50%;
 }
 
 .value {
     text-align: left;
     color: #FF6932;
+    display: inline-block;
+    width: 50%;
 }
 
 .fiveday {
@@ -219,7 +228,45 @@ footer {
 
 .forecast th {
     border-bottom: 1px solid #1A0068;
-    font-size: .6em;
+    font-size: 1em;
+    padding: 3px;
+    width: 20%;
+}
+
+article h4, article h5 {
+    font-family: 'Acme', Gadget, sans-serif;
+    padding: 5px;
+}
+
+article h4 {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+article h5 {
+    font-size: .75em;
+    color: #ffffff;
+}
+article img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0 0 10px 5px #000000;
+
+
+}
+
+article {
+  background-color: #1A0068;
+  max-width: 768px;
+  padding: 20px;
+  margin: 15px auto;
+  border: 1px solid #000000;
+}
+
+article p {
+  margin: 10px auto;
 }
 
 .img1 {

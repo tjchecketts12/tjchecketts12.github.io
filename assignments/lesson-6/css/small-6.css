@@ -305,7 +305,7 @@ article p {
 #map {
   max-width: 250px;
   margin: 10px auto;
-  display: inline-block;
+  float: left;
   border: 2px solid #D1FAFF;
 }
 

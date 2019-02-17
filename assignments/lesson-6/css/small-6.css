@@ -289,6 +289,30 @@ article p {
     height: 20px;
 }
 .socialmedia {
+  border: none;
   padding: 10px;
-  float: right;
+  display: inline;
+}
+
+.contact {
+  background-color: #ffffff;
+  max-width: 768px;
+  margin: 15px auto 0px;
+  padding: 10px;
+
+}
+
+#map {
+  max-width: 250px;
+  margin: 10px auto;
+  display: inline-block;
+  border: 2px solid #D1FAFF;
+}
+
+.coninfo {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px;
+  vertical-align: top;
+
 }

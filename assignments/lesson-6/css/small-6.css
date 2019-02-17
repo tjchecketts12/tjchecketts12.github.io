@@ -63,6 +63,11 @@ footer {
     background-color: #1A0068;
     color: #ffffff;
     text-align: center;
+    font-size: .75em;
+    max-width: 768px;
+    padding: 1em;
+    vertical-align: center;
+    margin: 0 auto;
 }
 
   #logo {

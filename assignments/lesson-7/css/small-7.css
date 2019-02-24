@@ -102,13 +102,12 @@
   nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: .75rem;
     text-align: center;
   }
 
   .navigation { 
     margin: 0 auto;
-    max-width: 900px;
   }
   
  .navigation li:first-child {

@@ -273,7 +273,7 @@
     margin: 15px auto 0px;
     padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 
   #map {
@@ -281,16 +281,14 @@
     margin: 0 auto;
     display: inline-block;
     border: 2px solid #D1FAFF;
-    grid-column-start: 1;
-    grid-column-end: 1;
+    grid-row-start: 1;
   }
 
   .coninfo {
     display: inline-block;
     margin: 0 auto;
     padding: 10px;
-    grid-column-start: 2;
-    grid-column-end: 2;
+    grid-row-start: 2;
   }
 
   :link :active {

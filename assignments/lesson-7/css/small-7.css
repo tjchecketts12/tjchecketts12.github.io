@@ -1,6 +1,7 @@
 * {
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: 'Acme', Gadget, sans-serif;
   }
   
   body {
@@ -9,6 +10,10 @@
   
   header {
     background-color: #1A0068;
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
   }
   
   .title {

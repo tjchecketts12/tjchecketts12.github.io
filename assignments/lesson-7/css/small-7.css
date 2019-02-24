@@ -63,7 +63,7 @@
   
   nav {
     background-color: #D1FAFF;
-    padding: 0;
+    padding: .75rem;
     margin: 0;
     text-align: center;
     width: 100%;
@@ -209,10 +209,6 @@
     font-size: 1em;
     padding: 3px;
     width: 20%;
-  }
-
-  .img1 {
-    margin: 50px auto;
   }
 
   .socialmedia {

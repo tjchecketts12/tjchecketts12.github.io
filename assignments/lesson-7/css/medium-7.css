@@ -12,7 +12,7 @@
         display: inline-block;
     }
 
-    .fivedayforecast {
+    .fiveday {
         display: block;
     }
 
@@ -23,7 +23,7 @@
         height: auto;
     }
 
-    .title {
+    h1 {
         font-size: 3em;
     }
 
@@ -43,20 +43,20 @@
         margin: 0 0 0 auto;
     }
 
-    .contactinfo {
+    .coninfo {
         grid-row-start: 1;
         grid-column-start: 2;
         margin: 0 auto 0 0;
     }
 
-    .gallery {
+    .gal {
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
     }
 
-    .gallery figure {
+    .gal figure {
         padding: 1rem;
         margin: .5rem;
         font-style: italic;

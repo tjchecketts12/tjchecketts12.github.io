@@ -1,31 +1,10 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 45em) {
 
-navigation li:first-child {
-    display: none;
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-.navigation li {
-    display: inline-block;
+    .gallery figure:hover {
+        box-shadow: 0 0 10px 10px #D1FAFF;
     }
-    
-.fiveday {
-    display: block;
-}
-
-header img {
-    max-width: 115px;
-    width: 115px;
-    height: auto;
-}
-
-.title {
-    font-size: 3em;
-}
-
-article img {
-    display: inline-block;
-    float: right;
-    margin-left: 15px;
-}
-
 }

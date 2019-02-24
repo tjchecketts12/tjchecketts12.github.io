@@ -15,16 +15,7 @@
     flex-flow: row nowrap;
     justify-content: center;
   }
-  
-  .title {
-    font-family: 'Acme', Gadget, sans-serif;
-    font-size: 1.5rem;
-    color: #ffffff;
-    padding: 10px;
-    text-shadow: 2px 2px 2px #1A0068;
-    margin: 0px;
-  }
-  
+   
   .motto {
     font-family: 'Architects Daughter', Tahoma, Geneva;
     font-size: 1rem;
@@ -49,17 +40,20 @@
     font-family: 'Architects Daughter', Tahoma, Geneva;
     font-size: 1rem;
   }
+
+  main, footer {
+    max-width: 60rem;
+  }
   
-footer {
+  footer {
     background-color: #1A0068;
     color: #ffffff;
     text-align: center;
     font-size: .75em;
-    max-width: 900px;
     padding: 1em;
     vertical-align: center;
     margin: 0 auto;
-}
+  }
 
   header img {
     max-width: 50px;
@@ -142,22 +136,21 @@ footer {
     background-color: #1A0068;
     color: #ffffff;
     padding: .5em;
-}
+  }
 
-.wsummary {
+  .wsummary {
     max-width: 900px;
     margin: 0 auto;
     position: relative;
-
-}
-.cimage {
+  }
+  .cimage {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
     box-shadow: 5px 5px 10px #D1FAFF; 
-}
+  } 
 
-.summary {
+  .summary {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -169,145 +162,144 @@ footer {
     padding: 20px;
     line-height: 1.2em;
     letter-spacing: .12em;
-}
+  }
 
-.summary h3 {
+  .summary h3 {
     color: #1A0068;
     text-align: center;
     font-weight: inherit;
     line-height: 1.7em;
     font-size: 1.5em;
     text-decoration-line: underline;
-}
+  }
 
-.summdet {
+  .summdet {
     margin: 0 auto;
     display: inline-block;
     width: 100%;
-}
-.label {
+  }
+  .label {
     text-align: right;
     color: #1A0068;
     display: inline-block;
     width: 50%;
-}
+  }
 
-.value {
+  .value {
     text-align: left;
     color: #FF6932;
     display: inline-block;
     width: 50%;
-}
+  }
 
-.fiveday {
+  .fiveday {
     max-width: 500px;
     margin: 10px auto;
     text-align: center;
     display: none;
-}
+  }
 
-.ficon img {
+  .ficon img {
     max-width: 50px;
-}
+  }
 
-.fiveday h4 {
+  .fiveday h4 {
     padding: 10px;
-}
+  }
 
-.forecast {
+  .forecast {
     border: 1px solid #1A0068;
     column-width: 100px;
-}
+  }
 
-.forecast th {
+  .forecast th {
     border-bottom: 1px solid #1A0068;
     font-size: 1em;
     padding: 3px;
     width: 20%;
-}
+  }
 
-.img1 {
-  margin: 50px auto;
-}
+  .img1 {
+    margin: 50px auto;
+  }
 
-.socialmedia {
-border: none;
-display: inline;
-}
+  .socialmedia {
+    border: none;
+    display: inline;
+  }
 
-article h4, article h5 {
+  article h4, article h5 {
     font-family: 'Acme', Gadget, sans-serif;
     padding: 5px;
-}
+  }
 
-article h4 {
+  article h4 {
     font-size: 1.5em;
     color: #ffffff;
-}
+  }
 
-article h5 {
+  article h5 {
     font-size: .9em;
     color: #ffffff;
-}
+  }
 
-article img {
-  width: 100%;
-  max-width: 300px;
-  display: block;
-  margin: 10px auto;
-  box-shadow: 0 0 10px 5px #000000;
-}
+  article img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 0 10px 5px #000000;
+  }
 
-article {
-  background-color: #1A0068;
-  max-width: 900px;
-  padding: 20px;
-  margin: 15px auto;
-  border: 1px solid #000000;
-}
+  article {
+    background-color: #1A0068;
+    max-width: 900px;
+    padding: 20px;
+    margin: 15px auto;
+    border: 1px solid #000000;
+  }
 
-article p {
-  margin: 10px auto;
-  color: #ffffff;
-}
+  article p {
+    margin: 10px auto;
+    color: #ffffff;
+  }
 
-.tab {
+  .tab {
     float: left;
     width: 20px;
     height: 20px;
-}
-.socialmedia {
-  border: none;
-  padding: 2px;
-  display: inline;
-}
+  }
+  .socialmedia {
+    border: none;
+    padding: 2px;
+    display: inline;
+  }
 
-.contact {
-  background-color: #ffffff;
-  max-width: 768px;
-  margin: 15px auto 0px;
-  padding: 10px;
+  .contact {
+    background-color: #ffffff;
+    max-width: 768px;
+    margin: 15px auto 0px;
+    padding: 10px;
+  }
 
-}
+  #map {
+    max-width: 250px;
+    margin: 10px auto;
+    display: inline-block;
+    border: 2px solid #D1FAFF;
+  }
 
-#map {
-  max-width: 250px;
-  margin: 10px auto;
-  display: inline-block;
-  border: 2px solid #D1FAFF;
-}
+  .coninfo {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px;
+    vertical-align: top;
+  }
 
-.coninfo {
-  display: inline-block;
-  margin: 10px auto;
-  padding: 10px;
-  vertical-align: top;
-}
+  :link:active {
+    color: #D1FAFF;
+  }
 
-:link:active {
-  color: #D1FAFF;
-}
-
-:visited:active {
-  color: #ffffff;
-}
+  :visited:active {
+    color: #ffffff;
+  }

@@ -291,11 +291,11 @@
     grid-row-start: 2;
   }
 
-  :link:active {
+  :link :active {
     color: #D1FAFF;
   }
 
-  :visited:active {
+  :visited :active {
     color: #ffffff;
   }
 

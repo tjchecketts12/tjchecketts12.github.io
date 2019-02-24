@@ -64,9 +64,12 @@
   nav {
     background-color: #D1FAFF;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
-    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
     
   nav li { 

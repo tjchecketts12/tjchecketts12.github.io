@@ -35,9 +35,6 @@
   
   .column {
     display: inline-block;
-    width: 65%;
-    vertical-align: top;
-    margin: 0 auto;  
   }
   
   h1 {
@@ -45,10 +42,6 @@
     font-size: 2rem;
     color: #ffffff;
     padding: 10px;
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
   }
 
   p {

@@ -40,11 +40,7 @@
     font-family: 'Architects Daughter', Tahoma, Geneva;
     font-size: 1rem;
   }
-
-  main, footer {
-    max-width: 60rem;
-  }
-  
+ 
   footer {
     background-color: #1A0068;
     color: #ffffff;
@@ -61,9 +57,8 @@
     padding: 5px;
   }
   
-  header, nav, main, footer {
-    margin: auto;
-    max-width: 900px;
+  main, footer {
+    max-width: 60rem;
   }
   
   nav {

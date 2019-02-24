@@ -288,7 +288,7 @@
     display: inline-block;
     margin: 0 auto;
     padding: 10px;
-    grid-row-start: 2;
+    grid-row-start: 1;
   }
 
   :link :active {

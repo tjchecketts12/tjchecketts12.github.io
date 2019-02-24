@@ -97,7 +97,6 @@
     color: #ffffff;
     border-radius: 3px;
     box-shadow: 3px 3px 3px black;
-    font-weight: 700;
   }
   
   nav ul {
@@ -147,14 +146,13 @@
 
   .summary {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 40%;
+    top: 1rem;
+    left: 1rem;
     border: 2px solid #D1FAFF;
     box-shadow: 5px 5px 5px #ebfdff;
     border-radius: 5px;
     background-color: #D1FAFF;
-    padding: 20px;
+    padding: 1rem;
     line-height: 1.2em;
     letter-spacing: .12em;
   }
@@ -188,7 +186,7 @@
   }
 
   .fiveday {
-    max-width: 500px;
+    max-width: 768px;
     margin: 10px auto;
     text-align: center;
     display: none;
@@ -234,7 +232,7 @@
   }
 
   article h5 {
-    font-size: .9em;
+    font-size: .75em;
     color: #ffffff;
   }
 
@@ -248,7 +246,6 @@
 
   article {
     background-color: #1A0068;
-    max-width: 900px;
     padding: 20px;
     margin: 15px auto;
     border: 1px solid #000000;
@@ -272,23 +269,26 @@
 
   .contact {
     background-color: #ffffff;
-    max-width: 768px;
+    display: inline-block;
     margin: 15px auto 0px;
     padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
   }
 
   #map {
     max-width: 250px;
-    margin: 10px auto;
+    margin: 0 auto;
     display: inline-block;
     border: 2px solid #D1FAFF;
+    grid-row-start: 1;
   }
 
   .coninfo {
     display: inline-block;
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 10px;
-    vertical-align: top;
+    grid-row-start: 2;
   }
 
   :link:active {
@@ -297,4 +297,21 @@
 
   :visited:active {
     color: #ffffff;
+  }
+
+  .gallery {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .gallery figure {
+    padding: 1rem;
+    margin: .5rem;
+    font-style: italic;
+    box-shadow: 0 0 5px 5px #ddd;
+  }
+
+  .gallery figure img {
+    width: 100%;
   }

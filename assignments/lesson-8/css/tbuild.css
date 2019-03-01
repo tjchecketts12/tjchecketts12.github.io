@@ -1,6 +1,15 @@
 th {
+    background-color: #7fb9c2;
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+}
+
+td {
     background-color: #e7f0ed;
     color: white;
     font-family: Ubuntu, sans-serif;
     text-align: center;
 }
+
+#628ca6

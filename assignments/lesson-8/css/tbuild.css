@@ -9,6 +9,10 @@ table {
     font-size: 0.8rem;
 }  
 
+thead {
+    font-size: 1.75em;
+}
+
 td, th {
     border: 1px solid gray;
     padding: 10px 20px;

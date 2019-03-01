@@ -1,12 +1,9 @@
-html {
-    font-family: Ubuntu, sans-serif;
-}
-
 table {
     border-collapse: collapse;
     border: 2px solid gray;
     letter-spacing: 1px;
     font-size: 0.8rem;
+    font-family: Ubuntu, sans-serif;
 }  
 
 thead {
@@ -41,6 +38,12 @@ tr:nth-child(odd) td {
     background-color: #e7ffed;
 
 }
+
+tfoot {
+    background-color: #7fb9c2;
+    color: black;  
+}
+
 caption {
     padding: 10px;
 }

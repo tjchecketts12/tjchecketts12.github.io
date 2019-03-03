@@ -90,13 +90,14 @@
   nav a.active {
     background-color: #FF6932;
     color: #1A0068;
+    border-radius: 1px;
   }
   
   nav a:hover:not(.active) {
     background-color: #1A0068;
     color: #ffffff;
-    border-radius: 3px;
-    box-shadow: 3px 3px 3px black;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px black;
   }
   
   nav ul {

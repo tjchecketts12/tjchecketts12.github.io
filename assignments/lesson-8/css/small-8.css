@@ -330,7 +330,7 @@
   form label.top, form div {
     display: block;
     padding: 1rem;
-    color: #1A0068;
+    color: #000000;
     font-size: 1rem;
   }
 
@@ -357,7 +357,7 @@ form input.submitButton {
     padding: 1rem;
     border-radius: 7px;
     border: 1px solid #1A0068;
-    background-color: #D1FAFF;
+    background-color: #FF6932;
     color: #1A0068;
     font-size: 1.5rem;
     width: 100%;

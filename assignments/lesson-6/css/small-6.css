@@ -26,7 +26,7 @@
   
   .motto {
     font-family: 'Architects Daughter', Tahoma, Geneva;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #FF6932;
     padding: 10px;
     margin: 0 auto;
@@ -100,7 +100,7 @@ footer {
   }
   
   nav a {
-    padding: 1em 1em;
+    padding: .35em 1em;
     color: #1A0068;
     text-decoration: none;
   }

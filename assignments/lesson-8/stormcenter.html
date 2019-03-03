@@ -40,7 +40,7 @@
       <form method="GET" action="thanks.html">
         <fieldset>
             <legend>Contact Information</legend>
-            <label class="top">Full Name<input type="text" name="name" pattern="[A-Za-z]{5}" title="letters, spaces only" required></label>
+            <label class="top">Full Name<input type="text" name="name" pattern="[A-Za-z\ \-\']{5,}" title="letters, spaces, hyphens, or apostrophes only" required></label>
             <label class="top">Email<input type="email" name="email" placeholder="sample@gmail.com"></label>
             <label class="top">Telephone<input type="tel" name="phone" required></label>
             <label class="top">Zip Code<input type="number" name="zipcode" required></label>

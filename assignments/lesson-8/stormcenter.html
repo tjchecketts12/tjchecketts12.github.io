@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Weather and event information for Southeast Idaho">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small-7.css">
-    <link rel="stylesheet" href="css/medium-7.css">
-    <link rel="stylesheet" href="css/large-7.css">
+    <link rel="stylesheet" href="css/small-8.css">
+    <link rel="stylesheet" href="css/medium-8.css">
+    <link rel="stylesheet" href="css/large-8.css">
     <link href="https://fonts.googleapis.com/css?family=Acme%7cArchitects+Daughter%7cBangers%7cBenchNine%7cKaushan+Script%7cMerienda" rel="stylesheet">
 </head>
 
@@ -36,80 +36,58 @@
     </nav>
    <br>
     <main>
-      <h2 class="cname">Preston, ID</h2>
-      <div class="wsummary">
-          <img class="cimage" src="images/preston_900.jpg" sizes="100vw" alt="Preston Farmland" srcset="images/preston_400.jpg 400w, images/preston_650.jpg 650w, images/preston_900.jpg 900w">
-         <!--<img class="cimage" src="images/preston2.jpg" alt="Preston, ID">-->
-         <div class="summary">
-            <h3>Weather Summary</h3>
-            <div class="sumdet">
-               <span class="label">Currently: </span><span class="value">Sunny</span><br>
-               <span class="label">High: </span><span class="value"><span id="temp">51</span>&deg; F</span><br>
-               <span class="label">Wind Chill: </span><span class="value"><span id="windchill"></span>&deg; F</span><br>
-               <span class="label">Humidity: </span><span class="value">84%</span><br>
-               <span class="label">Wind Speed: </span><span class="value"><span id="speed">5</span> mph</span>
-            </div>
-         </div>
-      </div> 
-      <div class="fiveday">
-         <h4>5 Day Forecast</h4>
-         <table class="forecast">
-            <tr>
-               <th>Monday</th>
-               <th>Tuesday</th>
-               <th>Wednesday</th>
-               <th>Thursday</th>
-               <th>Friday</th>
-            </tr>
-            <tr class="ficon">
-               <td><img src="images/sunny.png" alt="sunny"></td>
-               <td><img src="images/partly_cloudy.png" alt="partly cloudy"></td>
-               <td><img src="images/rain.png" alt="rain"></td>
-               <td><img src="images/thunderstorm.png" alt="thunderstorm"></td>
-               <td><img src="images/snow.png" alt="snow"></td>
-            </tr>
-            <tr class="temp">
-               <td>48&deg; F</td>
-               <td>42&deg; F</td>
-               <td>37&deg; F</td>
-               <td>33&deg; F</td>
-               <td>26&deg; F</td>
-            </tr>
-         </table>
-      </div>
-      <br><br>
-      <article>
-        <img src="images/comp_clean.jpg" alt="Clean Computer">
-        <h4>Extension Notes: How to keep your computer clean</h4>
-        <h5>by Laura L. Sant Franklin County Extension Educator</h5><br>
-        <div class="article">
-           <p>Do you wash your hands when you get to work? Consider what you touched before you get to work and how contaminated your hands may be.
-               Then when you get to work, you may grab a beverage or turn on your computer and get to work. Bacteria and germs on your hands will 
-               be transferred to whatever you touch if you don’t wash your hands first. Other people may also contaminate your workstation if they 
-               use your computer or sneeze/cough near your desk. 
-           </p>
-           <p>Do you wash your hands before eating at your desk? The problem with this is germs on your workstation will end up on your hands. From 
-              your hands, the germs transfer to your food which you eat. This is how bacteria and germs enter your body and make you sick. Touching 
-              around your eyes or nose may also introduce bacteria and germs into your body. To prevent this, consider washing your hands, desk and
-              computer every morning before you start working.
-            </p>
-            <p>Cleaning Your Computer : <a href="https://www.hjnews.com/preston/news/extension-notes-how-to-keep-your-computer-clean/article_772413d2-2ef6-11e9-aac3-07809986551b.html" target="_blank">continue to full article</a></p>
-        </div>
-      </article>
-      <div class="contact">
-            <img id="map" src="images/preston_map1.jpg" alt="Map of Preston">
-        <div class="coninfo"> 
-            <p><strong>CHECK-IT-OUT SE Idaho</strong><br>80 E Oneida St<br>Preston, ID 83263<br>
-            &phone; (123)456-7890<br>    
-            &#9993; info@checkitoutsei.org <br><br>
-            <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="images/facebook.png" alt="Facebook"></a>
-            <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon" src="images/youtube.png" alt="YouTube"></a>
-            <a class="socialmedia" target="_blank" href="https://twitter.com/"><img class="icon" src="images/twitter.png" alt="Twitter"></a>
-            <a class="socialmedia" target="_blank" href="https://www.pinterest.com/"><img class="icon" src="images/pinterest.png" alt="Pinterest"></a>
-            </P>
-        </div>
-      </div>  
-   </main>
+      <h2 class="cname">Storm Center</h2>
+      <form method="GET" action="thanks.html">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label class="top">Full Name<input type="text" name="name" pattern="[A-Za-z\ \-\']{5,}" title="letters, spaces, hyphens, or apostrophes only" required></label>
+            <label class="top">Email<input type="email" name="email" placeholder="sample@gmail.com"></label>
+            <label class="top">Telephone<input type="tel" name="phone" required></label>
+            <label class="top">Zip Code<input type="number" name="zipcode" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Storm Information</legend>
+            <label class="top">Storm Date<input type="date" name="date"></label>
+            <label class="top" for="stormtype">Storm Type<input list="stormtypes" name="stormtype">
+            <datalist id="stormtypes">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+            </datalist></label>
+            <label class="top">Storm Severity<span id="ratingvalue">5</span><input type="range" name="stormrange" min="1" max="10" step="1" value="5" oninput="adjustRating(this.value)"
+                    onchange="adjustRating(this.value)">
+                </label>
+            <label class="top">Storm Region<select name="region">
+                    <option value="" disabled selected>Select Region ...</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select></label>
+            <div>Are you in danger?</div>
+            <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
+            <label class="sbs"><input type="radio" name="danger" value="no">No</label>
+            <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
+            <label class="top">Comments<textarea name="comments" placeholder="add additional information here"></textarea></label>
+
+        </fieldset>
+        <input class="submitButton" type="submit" value="Send Storm Information" name="submit">
+      </form>
+    <div class="contact">
+        <img id="map" src="images/preston_map1.jpg" alt="Map of Preston">
+    <div class="coninfo"> 
+        <p><strong>CHECK-IT-OUT SE Idaho</strong><br>80 E Oneida St<br>Preston, ID 83263<br>
+        &phone; (123)456-7890<br>    
+        &#9993; info@checkitoutsei.org <br><br>
+        <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="images/facebook.png" alt="Facebook"></a>
+        <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon" src="images/youtube.png" alt="YouTube"></a>
+        <a class="socialmedia" target="_blank" href="https://twitter.com/"><img class="icon" src="images/twitter.png" alt="Twitter"></a>
+        <a class="socialmedia" target="_blank" href="https://www.pinterest.com/"><img class="icon" src="images/pinterest.png" alt="Pinterest"></a>
+        </P>
+    </div>
+    </div>
+    </main>
 <footer>
     <span>&copy; 2019 CHECK-IT-OUT SE Idaho-T.J. Checketts | CIT230-20 </span> | <span id="date"></span>
 </footer>

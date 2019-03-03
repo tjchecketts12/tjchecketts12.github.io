@@ -313,12 +313,10 @@
   }
   /* FORM */
   .fieldset {
-    margin: 1.5rem;
+    margin: 1rem;
     border: 2px solid #1A0068;
     border-radius: 7px;
     padding: 1rem;
-    display: flex;
-    justify-content: center;
   }
 
   form legend {
@@ -334,9 +332,9 @@
     font-size: 1rem;
   }
 
-form label.top input,
-form label.top select,
-form label.top textarea {
+  form label.top input,
+  form label.top select,
+  form label.top textarea {
     padding: .75rem;
     border-radius: 7px;
     display: block;
@@ -344,14 +342,14 @@ form label.top textarea {
     border: 1px solid #1A0068;
     max-width: 20rem;
     background-color: #D1FAFF;
-}
+  }
 
-form label.sbs {
+  form label.sbs {
     display: block;
     padding: .75rem;
-}
+  }
 
-form input.submitButton {
+  form input.submitButton {
     margin: 1.5rem 3.5rem;
     padding: 1rem;
     border-radius: 7px;
@@ -362,33 +360,27 @@ form input.submitButton {
     width: 100%;
     max-width: 20rem;
     ;
-}
+  }
 
-form label.top input:required {
+  form label.top input:required {
     border-left: 5px solid #FF6932;
-}
+  }
 
-form label.top input:required:valid {
+  form label.top input:required:valid {
     border-left: 5px solid #1A0068;
-}
+  }
 
-form label.top #ratingvalue {
+  form label.top #ratingvalue {
     display: inline-block;
     text-align: right;
     margin-left: 12rem;
-}
+  }
 
-/* Thank You Page */
+  /* Thank You Page */
 
-.thankyou {
+  .thankyou {
     font-size: 2rem;
     font-weight: normal;
     text-align: center;
     margin: 2rem;
-}
-
-.weatherthanks {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    max-width: 768px;
-}
+  }

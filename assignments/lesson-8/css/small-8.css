@@ -316,24 +316,23 @@
   /* FORM */
   .fieldset {
     margin: 1.5rem;
-    border: 2px solid #212930;
+    border: 2px solid #1A0068;
     border-radius: 7px;
     padding: 1rem;
-}
+  }
 
-form legend {
+  form legend {
     margin: 0 3rem;
     padding: 0 .5rem;
     font-size: 1.25rem;
-}
+  }
 
-form label.top,
-form div {
+  form label.top, form div {
     display: block;
     padding: 1rem;
-    color: #172507;
+    color: #1A0068;
     font-size: 1rem;
-}
+  }
 
 form label.top input,
 form label.top select,
@@ -342,10 +341,10 @@ form label.top textarea {
     border-radius: 7px;
     display: block;
     font-size: 1rem;
-    border: 1px solid #666;
+    border: 1px solid #1A0068;
     width: 100%;
     max-width: 20rem;
-    background-color: #eee;
+    background-color: #D1FAFF;
 }
 
 form label.sbs {
@@ -357,9 +356,9 @@ form input.submitButton {
     margin: 1.5rem 3.5rem;
     padding: 1rem;
     border-radius: 7px;
-    border: 1px solid #212930;
-    background-color: #212930;
-    color: #f1efeb;
+    border: 1px solid #1A0068;
+    background-color: #D1FAFF;
+    color: #1A0068;
     font-size: 1.5rem;
     width: 100%;
     max-width: 20rem;
@@ -371,7 +370,7 @@ form label.top input:required {
 }
 
 form label.top input:required:valid {
-    border-left: 5px solid #668d3c;
+    border-left: 5px solid #1A0068;
 }
 
 form label.top #ratingvalue {

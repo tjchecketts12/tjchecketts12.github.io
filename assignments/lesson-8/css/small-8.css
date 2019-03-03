@@ -359,6 +359,8 @@
     font-size: 1.5rem;
     width: 100%;
     max-width: 20rem;
+    display: flex;
+    justify-content: center;
     ;
   }
 

@@ -340,7 +340,6 @@ form label.top textarea {
     display: block;
     font-size: 1rem;
     border: 1px solid #1A0068;
-    width: 100%;
     max-width: 20rem;
     background-color: #D1FAFF;
 }

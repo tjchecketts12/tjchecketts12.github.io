@@ -82,7 +82,7 @@
   }
   
   nav a {
-    padding: 1em 1em;
+    padding: .5em;
     color: #1A0068;
     text-decoration: none;
   }
@@ -95,8 +95,6 @@
   nav a:hover:not(.active) {
     background-color: #1A0068;
     color: #ffffff;
-    border-radius: 3px;
-    box-shadow: 3px 3px 3px black;
   }
   
   nav ul {

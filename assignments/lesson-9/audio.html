@@ -57,27 +57,6 @@
         // connect our graph
         audioSource.connect(gainNode).connect(audioCtx.destination);
 
-        fetch('https://jsonplaceholder.typicode.com/posts/1', {
-    method: 'PATCH',
-    body: JSON.stringify({
-      title: 'foo'
-    }),
-    headers: {
-      "Content-type": "application/json; charset=UTF-8"
-    }
-  })
-  .then(response => response.json())
-  .then(json => console.log(json))
-
-/* will return
-{
-  id: 1,
-  title: 'foo',
-  body: 'quia et suscipit [...]',
-  userId: 1
-}
-*/
-
     </script>
 </body>    
 </html>

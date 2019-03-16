@@ -15,6 +15,13 @@
     flex-flow: row nowrap;
     justify-content: center;
   }
+
+  h1 {
+    font-family: 'Acme', Gadget, sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 10px;
+  }
    
   .motto {
     font-family: 'Architects Daughter', Tahoma, Geneva;
@@ -26,13 +33,6 @@
   
   .column {
     display: inline-block;
-  }
-  
-  h1 {
-    font-family: 'Acme', Gadget, sans-serif;
-    font-size: 2rem;
-    color: #ffffff;
-    padding: 10px;
   }
 
   p {

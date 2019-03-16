@@ -32,6 +32,10 @@
     display: block;
   }
 
+  .column {
+    display: inline-block;
+  }
+
   header img {
     max-width: 50px;
     display: inline-block;
@@ -59,7 +63,6 @@
   }
 
   nav {
-    list-style-type: none;
     background-color: #D1FAFF;
     padding: 0;
     margin: 0;

@@ -391,7 +391,6 @@
     color: #1A0068;
     background-color: #FF6932;
     border: 4px solid #1A0068;
-    box-shadow: 0px 0px 10px 5px #D1FAFF;
     text-decoration: none;
     text-align: center;
     display: block;
@@ -403,7 +402,6 @@
 #cityinfo h2 {
     font-family: 'Acme', Gadget, sans-serif;
     padding: .2em;
-    text-shadow: 2px 2px 2px #D1FAFF;
     font-weight: bolder;
     font-size: 2rem;
 }
@@ -427,22 +425,3 @@
 #cityinfo p {
     margin: .5em auto;
 }
-
-/* #cityinfo article {
-    padding: 0;
-    border: 2px solid #212930;
-    box-shadow: 0px 0px 10px 5px #aaa;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 400px;
-    /*border: 3px solid green;
-    display: block;
-}
-#cityinfo article img {
-    float: none;
-    margin: 0;
-    padding: 0;
-    box-shadow: none;
-    max-width: 400px;
-    /*border: 3px solid blue;
-} */

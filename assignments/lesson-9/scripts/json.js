@@ -40,10 +40,10 @@ request.onload = function () {
             let link = city.name;
             link = link.replace(/\s/g, '');
             let linkname = link.toLowerCase();
-            cityimg.setAttribute('src', "images/" + linkname + "400.jpg");
+            cityimg.setAttribute('src', "images/" + linkname + "_400.jpg");
             cityimg.setAttribute('alt', "City of " + city.name);
 
-            citylink.setAttribute('href', "https://sharpsloth.github.io/CIT-230/assignments/week-9/" + linkname + ".html");
+            citylink.setAttribute('href', "https://tjchecketts12.github.io/assignments/lesson-9/" + linkname + ".html");
 
             para1.appendChild(span1);
             para1.appendChild(cityyear);

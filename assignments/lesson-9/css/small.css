@@ -20,7 +20,7 @@ header {
   font-family: 'Architects Daughter', Tahoma, Geneva;
   font-size: 1.5rem;
   color: #FF6932;
-  padding: 10px;
+  padding: 5px;
   font-weight: inherit;
 }
 
@@ -32,7 +32,7 @@ h1 {
   font-family: 'Acme', Gadget, sans-serif;
   font-size: 2rem;
   color: #ffffff;
-  padding: 10px;
+  padding: 5px;
 }
 
 p {
@@ -74,13 +74,13 @@ nav li {
   font-family: 'Bangers', "Comic Sans MS", cursive;
   list-style-type: none;
   font-size: 1.75rem;
-  padding: 10px;
+  padding: 1em;
   display: block;
   text-align: center;
 }
 
 nav a {
-  padding: 1em 1em;
+  padding: .35em 1em;
   color: #1A0068;
   text-decoration: none;
 }

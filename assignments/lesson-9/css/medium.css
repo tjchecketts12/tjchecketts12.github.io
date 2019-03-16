@@ -2,6 +2,7 @@
 
     .navigation {
         flex-flow: row nowrap;
+        align-items: stretch;
     }
 
     .navigation li:first-child {
@@ -9,18 +10,12 @@
     }
 
     .navigation li {
-        display: inline-block;
+        display: block;
+        width: 100%;
     }
 
     .fiveday {
         display: block;
-    }
-
-    header img {
-        max-width: 115px;
-        ;
-        width: 115px;
-        height: auto;
     }
 
     h1 {
@@ -70,6 +65,16 @@
     form fieldset {
         margin-left: 5rem;
         margin-right: 5rem;
+    }
+
+    #cityinfo a {
+        display: flex;
+        flex-direction: row;
+        max-width: 768px;
+    }
+
+    #cityinfo a:nth-child(odd) {
+        flex-direction: row-reverse;
     }
 
 }

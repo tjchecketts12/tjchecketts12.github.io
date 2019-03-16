@@ -1,295 +1,302 @@
 * {
-    margin: 0 auto;
-    box-sizing: border-box;
-    font-family: 'Acme', Gadget, sans-serif;
-  }
-  
-  body {
-    background-color: #ffffff;
-  }
-  
-  header {
-    background-color: #1A0068;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-  }
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Acme', Gadget, sans-serif;
+}
 
-  h1 {
-    font-family: 'Acme', Gadget, sans-serif;
-    font-size: 2rem;
-    color: #ffffff;
-    padding: 10px;
-  }
-   
-  .motto {
-    font-family: 'Architects Daughter', Tahoma, Geneva;
-    font-size: 1.5rem;
-    color: #FF6932;
-    padding: 10px;
-    font-weight: inherit;
-    display: block;
-  }
+body {
+  background-color: #ffffff;
+}
 
-  .column {
-    display: inline-block;
-  }
-
-  header img {
-    max-width: 50px;
-    display: inline-block;
-    padding: 5px;
-  }
-
-  main, footer {
-    max-width: 60rem;
-  }
-  
-  p {
-    padding: 10px;
-    font-family: 'Architects Daughter', Tahoma, Geneva;
-    font-size: 1rem;
-  }
+header {
+  background-color: #1A0068;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
  
-  footer {
-    background-color: #1A0068;
-    color: #ffffff;
-    text-align: center;
-    font-size: .75em;
-    padding: 1em;
-    vertical-align: center;
-    margin: 0 auto;
-  }
+.motto {
+  font-family: 'Architects Daughter', Tahoma, Geneva;
+  font-size: 1.5rem;
+  color: #FF6932;
+  padding: 10px;
+  font-weight: inherit;
+}
 
-  nav {
-    background-color: #D1FAFF;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-    
-  nav li { 
-    font-family: 'Bangers', "Comic Sans MS", cursive;
-    list-style-type: none;
-    font-size: 1.75rem;
-    padding: 10px;
-    display: block;
-    text-align: center;
-  }
+.column {
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Acme', Gadget, sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 10px;
+}
+
+p {
+  padding: 10px;
+  font-family: 'Architects Daughter', Tahoma, Geneva;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #1A0068;
+  color: #ffffff;
+  text-align: center;
+  font-size: .75em;
+  padding: 1em;
+  vertical-align: center;
+  margin: 0 auto;
+}
+
+header img {
+  max-width: 50px;
+  display: inline-block;
+  padding: 5px;
+}
+
+main, footer {
+  max-width: 60rem;
+}
+
+nav {
+  background-color: #D1FAFF;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
   
-  nav a {
-    padding: .35em 1em;
-    color: #1A0068;
-    text-decoration: none;
-  }
-  
-  nav a.active {
-    background-color: #FF6932;
-    color: #1A0068;
-  }
-  
-  nav a:hover:not(.active) {
-    background-color: #1A0068;
-    color: #ffffff;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+nav li { 
+  font-family: 'Bangers', "Comic Sans MS", cursive;
+  list-style-type: none;
+  font-size: 1.75rem;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
 
-  .navigation { 
-    margin: 0 auto;
-  }
-  
- .navigation li:first-child {
-     display: block;
- }
+nav a {
+  padding: .35em 1em;
+  color: #1A0068;
+  text-decoration: none;
+}
 
- .navigation li {
-     display: none;
- }
+nav a.active {
+  background-color: #FF6932;
+  color: #1A0068;
+  border-radius: 1px;
+}
 
- .responsive li {
-     display: block;
- }
+nav a:hover:not(.active) {
+  background-color: #1A0068;
+  color: #ffffff;
+  border-radius: 1px;
+  box-shadow: 1px 1px 1px black;
+}
 
- .cname {
-    font-family: 'Acme', Gadget, sans-serif;
-    text-align: center;
-    margin: 15px auto;
-    font-size: 1.25rem;
-    font-weight: bold;
-    background-color: #1A0068;
-    color: #ffffff;
-    padding: .5em;
-  }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  .wsummary {
-    margin: 0 auto;
-    position: relative;
-  }
-  .cimage {
-    width: 100%;
-    margin: 0 auto;
-    box-shadow: 5px 5px 10px #D1FAFF; 
-  } 
+.navigation { 
+  margin: 0 auto;
+}
 
-  .summary {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    border: 2px solid #D1FAFF;
-    box-shadow: 5px 5px 5px #ebfdff;
-    border-radius: 5px;
-    background-color: #D1FAFF;
-    padding: 1rem;
-    line-height: 1.2em;
-    letter-spacing: .12em;
-  }
+.navigation li:first-child {
+   display: block;
+}
 
-  .summary h3 {
-    color: #1A0068;
-    text-align: center;
-    font-weight: inherit;
-    line-height: 1.7em;
-    font-size: 1.5em;
-    text-decoration-line: underline;
-  }
+.navigation li {
+   display: none;
+}
 
-  .summdet {
-    margin: 0 auto;
-    display: inline-block;
-    width: 100%;
-  }
-  .label {
-    text-align: right;
-    color: #1A0068;
-    display: inline-block;
-    width: 50%;
-  }
+.responsive li {
+   display: block;
+}
 
-  .value {
-    text-align: left;
-    color: #FF6932;
-    display: inline-block;
-    width: 50%;
-  }
+.cname {
+  font-family: 'Acme', Gadget, sans-serif;
+  text-align: center;
+  margin: 15px auto;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #1A0068;
+  color: #ffffff;
+  padding: .5em;
+}
 
-  .fiveday {
-    max-width: 768px;
-    margin: 10px auto;
-    text-align: center;
-    display: none;
-  }
+.wsummary {
+  margin: 0 auto;
+  position: relative;
+}
+.cimage {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px #D1FAFF; 
+} 
 
-  .ficon img {
-    max-width: 50px;
-  }
+.summary {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border: 2px solid #D1FAFF;
+  box-shadow: 5px 5px 5px #ebfdff;
+  border-radius: 5px;
+  background-color: #D1FAFF;
+  padding: 1rem;
+  line-height: 1.2em;
+  letter-spacing: .12em;
+}
 
-  .fiveday h4 {
-    padding: 10px;
-  }
+.summary h3 {
+  color: #1A0068;
+  text-align: center;
+  font-weight: inherit;
+  line-height: 1.7em;
+  font-size: 1.5em;
+  text-decoration-line: underline;
+}
 
-  .forecast {
-    border: 1px solid #1A0068;
-    column-width: 100px;
-  }
+.summdet {
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+}
+.label {
+  text-align: right;
+  color: #1A0068;
+  display: inline-block;
+  width: 50%;
+}
 
-  .forecast th {
-    border-bottom: 1px solid #1A0068;
-    font-size: 1em;
-    padding: 3px;
-    width: 20%;
-  }
+.value {
+  text-align: left;
+  color: #FF6932;
+  display: inline-block;
+  width: 50%;
+}
 
-  .socialmedia {
-    border: none;
-    padding: 2px;
-    display: inline;
-  }
+.fiveday {
+  max-width: 768px;
+  margin: 10px auto;
+  text-align: center;
+  display: none;
+}
 
-  article h4, article h5 {
-    font-family: 'Acme', Gadget, sans-serif;
-    padding: 5px;
-  }
+.ficon img {
+  max-width: 50px;
+}
 
-  article h4 {
-    font-size: 1.5em;
-    color: #ffffff;
-  }
+.fiveday h4 {
+  padding: 10px;
+}
 
-  article h5 {
-    font-size: .75em;
-    color: #ffffff;
-  }
+.forecast {
+  border: 1px solid #1A0068;
+  column-width: 100px;
+}
 
-  article img {
-    width: 100%;
-    max-width: 300px;
-    display: block;
-    margin: 10px auto;
-    box-shadow: 0 0 10px 5px #000000;
-  }
+.forecast th {
+  border-bottom: 1px solid #1A0068;
+  font-size: 1em;
+  padding: 3px;
+  width: 20%;
+}
 
-  article {
-    background-color: #1A0068;
-    padding: 20px;
-    margin: 15px auto;
-    border: 1px solid #000000;
-  }
+.socialmedia {
+  border: none;
+  display: inline;
+}
 
-  article p {
-    margin: 10px auto;
-    color: #ffffff;
-  }
+article h4, article h5 {
+  font-family: 'Acme', Gadget, sans-serif;
+  padding: 5px;
+}
 
-  .tab {
-    float: left;
-    width: 20px;
-    height: 20px;
-  }
-  
-  .contact {
-    background-color: #ffffff;
-    margin: 15px auto 0px;
-    padding: 10px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
+article h4 {
+  font-size: 1.5em;
+  color: #ffffff;
+}
 
-  #map {
-    max-width: 250px;
-    margin: 0 auto;
-    display: inline-block;
-    border: 2px solid #D1FAFF;
-    grid-row-start: 1;
-  }
+article h5 {
+  font-size: .75em;
+  color: #ffffff;
+}
 
-  .coninfo {
-    display: inline-block;
-    margin: 0 auto;
-    padding: 10px;
-    grid-row-start: 2;
-  }
+article img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0 0 10px 5px #000000;
+}
 
-  :link :active {
-    color: #D1FAFF;
-  }
+article {
+  background-color: #1A0068;
+  padding: 20px;
+  margin: 15px auto;
+  border: 1px solid #000000;
+}
 
-  :visited :active {
-    color: #ffffff;
-  }
+article p {
+  margin: 10px auto;
+  color: #ffffff;
+}
+
+.tab {
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+.socialmedia {
+  border: none;
+  padding: 2px;
+  display: inline;
+}
+
+.contact {
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 15px auto 0px;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#map {
+  max-width: 250px;
+  margin: 0 auto;
+  display: inline-block;
+  border: 2px solid #D1FAFF;
+  grid-row-start: 1;
+}
+
+.coninfo {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+  grid-row-start: 2;
+}
+
+:link :active {
+  color: #D1FAFF;
+}
+
+:visited :active {
+  color: #ffffff;
+}
 
   .gal {
     margin: 0 auto;

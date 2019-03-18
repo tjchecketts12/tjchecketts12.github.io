@@ -1,0 +1,431 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Acme', Gadget, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #1A0068;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+ 
+.motto {
+  font-family: 'Architects Daughter', Tahoma, Geneva;
+  font-size: 1.75rem;
+  color: #FF6932;
+  padding: 10px;
+  font-weight: inherit;
+}
+
+.column {
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Acme', Gadget, sans-serif;
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 5px;
+}
+
+p {
+  padding: 10px;
+  font-family: 'Architects Daughter', Tahoma, Geneva;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #1A0068;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1em;
+  padding: 1em;
+  vertical-align: center;
+  margin: 0 auto;
+}
+
+header img {
+  padding: 5px;
+  margin: 0;
+}
+
+main, footer {
+  max-width: 60rem;
+}
+
+nav {
+  background-color: #D1FAFF;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+  
+nav li { 
+  font-family: 'Bangers', "Comic Sans MS", cursive;
+  list-style-type: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+
+nav a {
+  padding: .36em 1em;
+  color: #1A0068;
+  text-decoration: none;
+}
+
+nav a.active {
+  background-color: #FF6932;
+  color: #1A0068;
+  border-radius: 1px;
+}
+
+nav a:hover:not(.active) {
+  background-color: #1A0068;
+  color: #ffffff;
+  border-radius: 1px;
+  box-shadow: 1px 1px 1px black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column nowrap;
+}
+
+.navigation { 
+  margin: 0 auto;
+}
+
+.navigation li:first-child {
+   display: block;
+}
+
+.navigation li {
+   display: none;
+}
+
+.responsive li {
+   display: block;
+}
+
+.cname {
+  font-family: 'Acme', Gadget, sans-serif;
+  text-align: center;
+  margin: 15px auto;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #1A0068;
+  color: #ffffff;
+  padding: .5em;
+}
+
+.wsummary {
+  margin: 0 auto;
+  position: relative;
+}
+.cimage {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px #D1FAFF; 
+} 
+
+.summary {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  border: 2px solid #D1FAFF;
+  box-shadow: 5px 5px 5px #ebfdff;
+  border-radius: 5px;
+  background-color: #D1FAFF;
+  padding: 1rem;
+  line-height: 1.2em;
+  letter-spacing: .12em;
+}
+
+.summary h3 {
+  color: #1A0068;
+  text-align: center;
+  font-weight: inherit;
+  line-height: 1.7em;
+  font-size: 1.5em;
+  text-decoration-line: underline;
+}
+
+.summdet {
+  margin: 0 auto;
+  display: inline-block;
+  width: 100%;
+}
+.label {
+  text-align: right;
+  color: #1A0068;
+  display: inline-block;
+  width: 50%;
+}
+
+.value {
+  text-align: left;
+  color: #FF6932;
+  display: inline-block;
+  width: 50%;
+}
+
+.fiveday {
+  max-width: 768px;
+  margin: 10px auto;
+  text-align: center;
+  display: none;
+}
+
+.ficon img {
+  max-width: 50px;
+}
+
+.fiveday h4 {
+  padding: 10px;
+}
+
+.forecast {
+  border: 1px solid #1A0068;
+  column-width: 100px;
+}
+
+.forecast th {
+  border-bottom: 1px solid #1A0068;
+  font-size: 1em;
+  padding: 3px;
+  width: 20%;
+}
+
+.socialmedia {
+  border: none;
+  display: inline;
+}
+
+article h4, article h5 {
+  font-family: 'Acme', Gadget, sans-serif;
+  padding: 5px;
+}
+
+article h4 {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+article h5 {
+  font-size: .75em;
+  color: #ffffff;
+}
+
+article img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0 0 10px 5px #000000;
+}
+
+article {
+  background-color: #1A0068;
+  padding: 20px;
+  margin: 15px auto;
+  border: 1px solid #000000;
+}
+
+article p {
+  margin: 10px auto;
+  color: #ffffff;
+}
+
+.tab {
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+.socialmedia {
+  border: none;
+  padding: 2px;
+  display: inline;
+}
+
+.contact {
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 15px auto 0px;
+  padding: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#map {
+  max-width: 250px;
+  margin: 0 auto;
+  display: inline-block;
+  border: 2px solid #D1FAFF;
+  grid-row-start: 1;
+}
+
+.coninfo {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+  grid-row-start: 2;
+}
+
+:link :active {
+  color: #D1FAFF;
+}
+
+:visited :active {
+  color: #ffffff;
+}
+
+  .gal {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .gal figure {
+    padding: 1rem;
+    margin: .5rem;
+    font-style: italic;
+    box-shadow: 0 0 5px 5px #D1FAFF;
+  }
+
+  .gal figure img {
+    width: 100%;
+  }
+
+  /* FORM */
+  form fieldset {
+    margin: 1rem;
+    border: 2px solid #1A0068;
+    border-radius: 7px;
+    padding: 1rem;
+  }
+
+  form legend {
+    margin: 0 3rem;
+    padding: 0 .5rem;
+    font-size: 1.25rem;
+  }
+
+  form label.top, form div {
+    display: block;
+    padding: 1rem;
+    color: #000000;
+    font-size: 1rem;
+  }
+
+  form label.top input,
+  form label.top select,
+  form label.top textarea {
+    padding: .75rem;
+    border-radius: 7px;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #1A0068;
+    max-width: 20rem;
+    background-color: #D1FAFF;
+  }
+
+  form label.sbs {
+    display: block;
+    padding: .75rem;
+  }
+
+  form input.submitButton {
+    margin: 1.5rem 3.5rem;
+    padding: 1rem;
+    border-radius: 7px;
+    border: 1px solid #1A0068;
+    background-color: #FF6932;
+    color: #1A0068;
+    font-size: 1.5rem;
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  form label.top input:required {
+    border-left: 5px solid #FF6932;
+  }
+
+  form label.top input:required:valid {
+    border-left: 5px solid #1A0068;
+  }
+
+  form label.top #ratingvalue {
+    display: inline-block;
+    text-align: right;
+    margin-left: 12rem;
+  }
+
+  /* Thank You Page */
+
+  .thankyou {
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 2rem;
+  }
+
+  /* Homepage Cards */
+  
+  #cityinfo {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 1em auto;
+}
+
+#cityinfo a {
+    color: #1A0068;
+    background-color: #FF6932;
+    border: 4px solid #1A0068;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 1em auto;
+}
+
+#cityinfo h2 {
+    font-family: 'Acme', Gadget, sans-serif;
+    padding: .2em;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+#cityinfo img {
+    width: 100%;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+#cityinfo h3 {
+    font-size: 1rem;
+    padding: .2em 1em;
+    font-style: italic;
+}
+
+#cityinfo .citylabel {
+    font-weight: bold;
+}
+
+#cityinfo p {
+    margin: .5em auto;
+}

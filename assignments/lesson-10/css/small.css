@@ -164,22 +164,22 @@ nav ul {
 }
 
 .summdet {
-  margin: 0 auto;
-  display: inline-block;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: .25rem;
 }
 .label {
   text-align: right;
   color: #1A0068;
   display: inline-block;
-  width: 60%;
+  width: 50%;
 }
 
 .value {
   text-align: left;
   color: #FF6932;
   display: inline-block;
-  width: 60%;
+  width: 50%;
 }
 
 .fiveday {

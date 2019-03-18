@@ -149,9 +149,7 @@ nav ul {
   box-shadow: 5px 5px 5px #ebfdff;
   border-radius: 5px;
   background-color: #D1FAFF;
-  padding: 1rem;
-  line-height: 1.2em;
-  letter-spacing: .12em;
+  padding: 10px 0;
 }
 
 .summary h3 {

@@ -168,18 +168,16 @@ nav ul {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: .25rem;
 }
-.label {
+.sumdet, .label {
   text-align: right;
   color: #1A0068;
-  display: inline-block;
-  width: 50%;
+  font-size: 1.25rem;
+  padding: 0 0 0 15px;
 }
 
-.value {
-  text-align: left;
+.sumdet, .value {
   color: #FF6932;
-  display: inline-block;
-  width: 50%;
+  padding: 0 15px 0 30px;
 }
 
 .fiveday {

@@ -143,8 +143,8 @@ nav ul {
 
 .summary {
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: 5px;
+  left: 5px;
   border: 2px solid #D1FAFF;
   box-shadow: 5px 5px 5px #ebfdff;
   border-radius: 5px;

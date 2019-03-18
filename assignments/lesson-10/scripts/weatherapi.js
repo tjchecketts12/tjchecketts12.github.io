@@ -12,6 +12,6 @@ weatherRequest.onload =  function () {
     let desc = weatherData.weather[0].description;
 
     document.getElementById('ct-img').setAttribute('src', icon);
-    document.getElementById('ct-img').setAttribute('description', desc);
+    document.getElementById('ct-img').setAttribute('alt', desc);
 
 }

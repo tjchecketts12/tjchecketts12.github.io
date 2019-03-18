@@ -8,4 +8,10 @@ weatherRequest.onload =  function () {
     console.log(weatherData);
 
     document.getElementById('current-temp').innerHTML=weatherData.main.temp;
+    let icon = "http://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
+    let desc = weatherData.weather[0].description;
+
+    document.getElementById('ct-img').setAttribute('src', icon);
+    document.getElementById('ct-img').setAttribute('description', desc);
+
 }

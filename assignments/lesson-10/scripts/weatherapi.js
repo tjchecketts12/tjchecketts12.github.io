@@ -19,6 +19,5 @@ weatherRequest.onload =  function () {
 
     document.getElementById('ct-img').setAttribute('src', icon);
     document.getElementById('ct-img').setAttribute('alt', desc);
-    document.getElementById('')
 
 }

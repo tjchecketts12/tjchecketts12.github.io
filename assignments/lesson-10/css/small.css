@@ -165,6 +165,7 @@ nav ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 2rem;
+  justify-content: start;
 }
 .label {
   text-align: right;

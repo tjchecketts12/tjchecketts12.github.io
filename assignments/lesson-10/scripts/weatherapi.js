@@ -16,12 +16,4 @@ weatherRequest.onload =  function () {
     let temp = parseInt(weatherData.main.temp_max, 10);
     
     windchill(speed, temp);
-
-    document.getElementById('current-temp').innerHTML=weatherData.main.temp;
-    let icon = "http://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
-    let desc = weatherData.weather[0].description;
-
-    document.getElementById('ct-img').setAttribute('src', icon);
-    document.getElementById('ct-img').setAttribute('alt', desc);
-
 }

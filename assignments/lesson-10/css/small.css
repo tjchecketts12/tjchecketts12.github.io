@@ -196,14 +196,14 @@ nav ul {
 
 .forecast {
   border: 1px solid #1A0068;
-  column-width: 200px;
+  column-width: 400px;
 }
 
 .forecast th {
   border-bottom: 1px solid #1A0068;
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding: 3px;
-  width: 20%;
+  width: 30%;
 }
 
 .socialmedia {

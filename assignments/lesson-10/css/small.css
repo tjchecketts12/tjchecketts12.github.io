@@ -163,9 +163,9 @@ nav ul {
 
 .summdet {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   justify-content: space-around;
-  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
 }
 .label {
   text-align: right;

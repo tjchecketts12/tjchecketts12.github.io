@@ -164,10 +164,10 @@ nav ul {
 .summdet {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: .25rem;
+  grid-column-gap: .5rem;
 }
 .sumdet, .label {
-  text-align: left;
+  text-align: right;
   color: #1A0068;
   font-size: 1.25rem;
   padding: 0 0 0 15px;

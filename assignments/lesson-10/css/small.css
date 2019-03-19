@@ -164,7 +164,7 @@ nav ul {
 .summdet {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: .5rem;
+  grid-column-gap: 1rem;
 }
 .sumdet, .label {
   text-align: right;
@@ -176,7 +176,7 @@ nav ul {
 .sumdet, .value {
   color: #FF6932;
   padding: 0 15px 0 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .fiveday {

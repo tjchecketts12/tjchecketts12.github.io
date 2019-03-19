@@ -58,6 +58,7 @@
       <div class="fiveday">
          <h4>5 Day Forecast</h4>
          <table class="forecast">
+         <thead>
             <tr>
                <th><span id="day1"></span></th>
                <th><span id="day2"></span></th>
@@ -65,20 +66,16 @@
                <th><span id="day4"></span></th>
                <th><span id="day5"></span></th>
             </tr>
+         </thead>
+         <tbody>
             <tr class="ficon">
-               <td><img id="ct-img" src="" alt=""></td>
-               <td><img src="images/partly_cloudy.png" alt="partly cloudy"></td>
-               <td><img src="images/rain.png" alt="rain"></td>
-               <td><img src="images/thunderstorm.png" alt="thunderstorm"></td>
-               <td><img src="images/snow.png" alt="snow"></td>
+               <td><img id="ct-img1" src="" alt=""><br><span id="current-temp1"></span>&deg; F</td>
+               <td><img id="ct-img2" src="" alt=""><br><span id="current-temp2"></span>&deg; F</td>
+               <td><img id="ct-img3" src="" alt=""><br><span id="current-temp3"></span>&deg; F</td>
+               <td><img id="ct-img4" src="" alt=""><br><span id="current-temp4"></span>&deg; F</td>
+               <td><img id="ct-img5" src="" alt=""><br><span id="current-temp5"></span>&deg; F</td>
             </tr>
-            <tr class="temp">
-               <td>48&deg; F</td>
-               <td>42&deg; F</td>
-               <td>37&deg; F</td>
-               <td>33&deg; F</td>
-               <td>26&deg; F</td>
-            </tr>
+         </tbody>
          </table>
       </div>
       <br><br>
@@ -121,6 +118,7 @@
 <script src="scripts/today.js"></script>
 <script src="scripts/windchill.js"></script>
 <script src="scripts/weatherapi.js"></script>
+<script src="scripts/forecastapi.js"></script>
 </body>
 
 </html>

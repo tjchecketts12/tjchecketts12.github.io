@@ -190,12 +190,13 @@ nav ul {
 }
 
 .fiveday h4 {
+  font-size: 1.75rem;
   padding: 10px;
 }
 
 .forecast {
   border: 1px solid #1A0068;
-  column-width: 100px;
+  column-width: 150px;
 }
 
 .forecast th {

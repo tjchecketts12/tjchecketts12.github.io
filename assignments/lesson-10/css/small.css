@@ -166,18 +166,18 @@ nav ul {
   justify-content: space-around;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
+  padding: 10px;
 }
+
 .label {
   text-align: right;
   color: #1A0068;
   font-size: 1.25rem;
-  padding: 0 0 0 15px;
 }
 
 .value {
   color: #FF6932;
   font-size: 1.25rem;
-  padding: 0 15px 0 30px;
   text-align: left;
 }
 

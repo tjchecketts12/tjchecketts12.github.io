@@ -167,7 +167,7 @@ nav ul {
   grid-column-gap: .25rem;
 }
 .sumdet, .label {
-  text-align: right;
+  text-align: left;
   color: #1A0068;
   font-size: 1.25rem;
   padding: 0 0 0 15px;
@@ -176,7 +176,7 @@ nav ul {
 .sumdet, .value {
   color: #FF6932;
   padding: 0 15px 0 30px;
-  text-align: left;
+  text-align: center;
 }
 
 .fiveday {

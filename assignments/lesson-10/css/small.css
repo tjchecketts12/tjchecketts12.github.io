@@ -176,6 +176,7 @@ nav ul {
 .sumdet, .value {
   color: #FF6932;
   padding: 0 15px 0 30px;
+  text-align: left;
 }
 
 .fiveday {

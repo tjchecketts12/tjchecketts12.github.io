@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>CHECK-IT-OUT Southeast Idaho | Soda Springs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Weather and event information for Southeast Idaho">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme%7cArchitects+Daughter%7cBangers%7cBenchNine%7cKaushan+Script%7cMerienda" rel="stylesheet">
+</head>
+
+<body> 
+   <header>
+    <div class="headercontainer">
+      <img src="images/logo.jpg" alt="Logo">
+      <div class="column">
+         <h1>CHECK-IT-OUT Southeast Idaho</h1>
+         <h2 class="motto">Weather - We Got it! Events - We Got it!</h2>
+      </div>   
+    </div>
+   </header> 
+    <nav>
+      <ul class="navigation"> 
+         <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+         <li><a href="/assignments/weathersite/index.html">Home</a></li>
+         <li><a href="/assignments/lesson-10/preston.html">Preston</a></li>
+         <li><a class="active" href="/assignments/weathersite/sodasprings.html">Soda Springs</a></li>
+         <li><a href="/assignments/weathersite/fishhaven.html">Fish Haven</a></li>
+         <li><a href="/assignments/weathersite/stormcenter.html">Storm Center</a></li>
+         <li><a href="/assignments/weathersite/gallery.html">Gallery</a></li>                           
+      </ul>
+    </nav>
+   <br>
+    <main>
+      <h2 class="cname">Preston, ID</h2>
+      <div class="wsummary">
+          <img class="cimage" src="images/sodasprings_900.jpg" sizes="100vw" alt="Soda Springs" srcset="images/sodasprings_400.jpg 400w, images/sodasprings_650.jpg 650w, images/sodasprings_900.jpg 900w">
+         <div class="summary">
+            <h3>Weather Summary</h3>
+            <div class="sumdet">
+               <span class="label">Currently:  </span>
+               <span class="value"><span id="currently"></span><span><br>
+               <span class="label">High:        </span>
+               <span class="value"><span id="temp"></span>&deg; F</span><br>
+               <span class="label">Wind Chill:  </span>
+               <span class="value"><span id="windchill"></span>&deg; F</span><br>
+               <span class="label">Humidity:  </span>
+               <span class="value"><span id="humidity"></span></span><br>
+               <span class="label">Wind Speed: </span>
+               <span class="value"><span id="speed"></span> mph</span>
+            </div>
+         </div>
+      </div> 
+      <div class="fiveday">
+         <h4>5 Day Forecast</h4>
+         <table class="forecast">
+         <thead>
+            <tr>
+               <th><span id="day1"></span></th>
+               <th><span id="day2"></span></th>
+               <th><span id="day3"></span></th>
+               <th><span id="day4"></span></th>
+               <th><span id="day5"></span></th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr class="ficon">
+               <td><img id="ct-img1" src="" alt=""><br><span id="current-temp1"></span>&deg; F</td>
+               <td><img id="ct-img2" src="" alt=""><br><span id="current-temp2"></span>&deg; F</td>
+               <td><img id="ct-img3" src="" alt=""><br><span id="current-temp3"></span>&deg; F</td>
+               <td><img id="ct-img4" src="" alt=""><br><span id="current-temp4"></span>&deg; F</td>
+               <td><img id="ct-img5" src="" alt=""><br><span id="current-temp5"></span>&deg; F</td>
+            </tr>
+         </tbody>
+         </table>
+      </div>
+      <br><br>
+      <article>
+        <img src="images/comp_clean.jpg" alt="Clean Computer">
+        <h4>Extension Notes: How to keep your computer clean</h4>
+        <h5>by Laura L. Sant Franklin County Extension Educator</h5><br>
+        <div class="article">
+           <p>Do you wash your hands when you get to work? Consider what you touched before you get to work and how contaminated your hands may be.
+               Then when you get to work, you may grab a beverage or turn on your computer and get to work. Bacteria and germs on your hands will 
+               be transferred to whatever you touch if you don’t wash your hands first. Other people may also contaminate your workstation if they 
+               use your computer or sneeze/cough near your desk. 
+           </p>
+           <p>Do you wash your hands before eating at your desk? The problem with this is germs on your workstation will end up on your hands. From 
+              your hands, the germs transfer to your food which you eat. This is how bacteria and germs enter your body and make you sick. Touching 
+              around your eyes or nose may also introduce bacteria and germs into your body. To prevent this, consider washing your hands, desk and
+              computer every morning before you start working.
+            </p>
+            <p>Cleaning Your Computer : <a href="https://www.hjnews.com/preston/news/extension-notes-how-to-keep-your-computer-clean/article_772413d2-2ef6-11e9-aac3-07809986551b.html" target="_blank">continue to full article</a></p>
+        </div>
+      </article>
+      <div class="contact">
+            <img id="map" src="images/preston_map1.jpg" alt="Map of Preston">
+        <div class="coninfo"> 
+            <p><strong>CHECK-IT-OUT SE Idaho</strong><br>80 E Oneida St<br>Preston, ID 83263<br>
+            &phone; (123)456-7890<br>    
+            &#9993; info@checkitoutsei.org <br><br>
+            <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="images/facebook.png" alt="Facebook"></a>
+            <a class="socialmedia" target="_blank" href="https://www.youtube.com"><img class="icon" src="images/youtube.png" alt="YouTube"></a>
+            <a class="socialmedia" target="_blank" href="https://twitter.com/"><img class="icon" src="images/twitter.png" alt="Twitter"></a>
+            <a class="socialmedia" target="_blank" href="https://www.pinterest.com/"><img class="icon" src="images/pinterest.png" alt="Pinterest"></a>
+            </P>
+        </div>
+      </div>  
+   </main>
+<footer>
+    <span>&copy; 2019 CHECK-IT-OUT SE Idaho-T.J. Checketts | CIT230-20 </span> | <span id="date"></span>
+</footer>
+<script src="scripts/menu.js"></script>
+<script src="scripts/today.js"></script>
+<script src="scripts/windchill.js"></script>
+<script src="scripts/weatherapi.js"></script>
+<script src="scripts/forecastapi.js"></script>
+</body>
+
+</html>

@@ -284,7 +284,7 @@ article p {
   grid-row-start: 2;
 }
 
-:link :active {
+small a {
   color: #D1FAFF;
 }
 

@@ -179,23 +179,22 @@ nav ul {
   color: #FF6932;
   grid-column-start: 2;
   font-size: 1.25rem;
-  text-align: left
 }
 
 .fiveday {
   max-width: 32.5em;
   margin: 10px auto;
   text-align: center;
-  display: none;
+  display: none
 }
 
 .ficon img {
-  max-width: 50px;
+  max-width: 50px
 }
 
 .fiveday h4 {
   font-size: 1.75rem;
-  padding: 10px;
+  padding: 10px
 }
 
 .forecast {
@@ -208,27 +207,25 @@ nav ul {
 .forecast th {
   font-size: 1.25rem;
   padding: 3px;
-  width: 20%;
+  width: 20%
 }
 
 .socialmedia {
   border: none;
-  display: inline;
+  display: inline
 }
 
 article h4, article h5 {
-  font-family: 'Acme', Gadget, sans-serif;
   padding: 5px;
+  color: #ffffff
 }
 
 article h4 {
   font-size: 1.5em;
-  color: #ffffff;
 }
 
 article h5 {
   font-size: .75em;
-  color: #ffffff;
 }
 
 article img {

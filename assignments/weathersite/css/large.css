@@ -1,4 +1,4 @@
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 45em) {
 
     .gal {
         grid-template-columns: 1fr 1fr 1fr;
@@ -7,24 +7,29 @@
     .gal figure:hover {
         box-shadow: 0 0 10px 10px #D1FAFF;
     }
-    form input.submitButton {
-        margin-left: 12rem;
-        margin-right: 10rem;
-    }
-
-    form fieldset {
-        margin-left: 10rem;
-        margin-right: 10rem;
-    }
-
+  
     #cityinfo {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 2em;
+        grid-column-gap: 2em
     }
 
     #cityinfo a {
-        display: block;
+        display: grid;
+        grid-template-rows: auto;
+        align-items: end;
         max-width: 32.5em;
     }
+
+    .contact {
+        grid-template-columns: 1fr 1.5fr 2fr
+    }
+
+    .map {
+        margin: 0 auto;
+    }
     
+    .eventarticle {
+        align-self: start;
+        margin: 2em 0
+    }
 }

@@ -1,5 +1,13 @@
+let z = document.title;
+let forecastID = "4406831";
+if (z.includes("Preston") == true) {
+    forecastId = "5604473";
+} else if (z.includes("Soda Springs") == true) {
+    forecastId = "5678757";
+}
+
 let forecastRequest = new XMLHttpRequest();
-let forecastURLstring = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=bb4509ecac6b78adefbfa471450e41df";
+let forecastURLstring = "https://api.openweathermap.org/data/2.5/forecast?id=" + forecastID + "&units=imperial&APPID=bb4509ecac6b78adefbfa471450e41df";
 forecastRequest.open("Get", forecastURLstring, true);
 forecastRequest.send();
 

@@ -32,10 +32,6 @@ h1 {
   display: block
 }
 
-.column {
-  display: inline-block;
-}
-
 p {
   padding: 10px;
   font-family: 'Architects Daughter', Tahoma, Geneva;

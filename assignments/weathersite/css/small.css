@@ -131,19 +131,21 @@ nav ul {
 
 .cimage {
   width: 100%;
-  margin: 0 auto;
-  box-shadow: 5px 5px 10px #D1FAFF; 
+  margin-top: 1em;
+  box-shadow: 0 0 10px 5px #D1FAFF 
 } 
 
 .summary {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 1em;
+  left: 1em;
   border: 2px solid #D1FAFF;
-  box-shadow: 5px 5px 5px #ebfdff;
+  box-shadow: 0 0 10px 5px #ebfdff;
   border-radius: 5px;
   background-color: #D1FAFF;
-  padding: 10px 0;
+  padding: .3em;
+  line-height: 1.2em;
+  letter-spacing: .12em
 }
 
 .summary h3 {

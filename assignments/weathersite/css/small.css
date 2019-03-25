@@ -159,7 +159,7 @@ nav ul {
 .summdet {
   margin: 0 auto;
   display: grid;
-  width: 1005;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
 }
 

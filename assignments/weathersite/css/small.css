@@ -70,7 +70,7 @@ nav {
   
 nav li { 
   font-family: 'Bangers', "Comic Sans MS", cursive;
-  display: block;
+  display: none;
   padding: .75em 0;
   font-size: 1.5rem;
   height: 100%
@@ -80,19 +80,18 @@ nav a {
   padding: .36em 1em;
   color: #1A0068;
   text-decoration: none;
+  display: block;
 }
 
 nav a.active {
   background-color: #FF6932;
-  color: #1A0068;
-  border-radius: 1px;
+  color: #1A0068
 }
 
 nav a:hover:not(.active) {
   background-color: #1A0068;
   color: #ffffff;
-  border-radius: 1px;
-  box-shadow: 1px 1px 1px black;
+  font-weight: 700
 }
 
 nav ul {
@@ -105,10 +104,6 @@ nav ul {
 
 .nav li:first-child {
    display: block;
-}
-
-.navigation li {
-   display: none;
 }
 
 .responsive li {

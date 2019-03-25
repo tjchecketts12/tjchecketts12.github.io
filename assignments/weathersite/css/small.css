@@ -1,38 +1,39 @@
 * {
   margin: 0 auto;
   box-sizing: border-box;
-  font-family: 'Acme', Gadget, sans-serif;
+  font-family: 'Acme', Gadget, sans-serif
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #ffffff
 }
 
 header {
   background-color: #1A0068;
-  text-align: center;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  align-items: center;
+  justify-content: center
+}
+
+h1 {
+  font-size: 2em;
+  color: #ffffff;
+  padding: .1em;
+  margin: 0
 }
  
 .motto {
   font-family: 'Architects Daughter', Tahoma, Geneva;
-  font-size: 1.75rem;
+  font-size: .5em;
   color: #FF6932;
-  padding: 10px;
+  padding: .2em;
   font-weight: inherit;
+  display: block
 }
 
 .column {
   display: inline-block;
-}
-
-h1 {
-  font-family: 'Acme', Gadget, sans-serif;
-  font-size: 2rem;
-  color: #ffffff;
-  padding: 5px;
 }
 
 p {
@@ -52,8 +53,8 @@ footer {
 }
 
 header img {
-  padding: 5px;
-  margin: 0;
+  padding: 1em;
+  margin: 0
 }
 
 main, footer {

@@ -71,7 +71,7 @@ nav {
 nav li { 
   font-family: 'Bangers', "Comic Sans MS", cursive;
   display: none;
-  padding: 10px;
+  padding: .36em;
   font-size: 1.5rem;
   height: 100%
 }

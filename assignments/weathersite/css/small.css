@@ -179,6 +179,7 @@ nav ul {
   color: #FF6932;
   grid-column-start: 2;
   font-size: 1.25rem;
+  text-align: right;
 }
 
 .fiveday {

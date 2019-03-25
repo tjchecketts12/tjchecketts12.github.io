@@ -115,7 +115,7 @@ nav ul {
   text-align: center;
   margin: 15px auto;
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 700;
   background-color: #1A0068;
   color: #ffffff;
   padding: .5em;
@@ -123,6 +123,10 @@ nav ul {
 
 .wsummary {
   position: relative;
+}
+
+#currently {
+	text-transform: capitalize
 }
 
 .cimage {

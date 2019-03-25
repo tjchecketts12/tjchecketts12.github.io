@@ -183,7 +183,7 @@ nav ul {
 }
 
 .fiveday {
-  max-width: 768px;
+  max-width: 32.5em;
   margin: 10px auto;
   text-align: center;
   display: none;
@@ -200,11 +200,12 @@ nav ul {
 
 .forecast {
   border: 1px solid #1A0068;
-  column-width: 200px;
+  width: 100%;
+  background-color: #D1FAFF;
+  font-size: 1em
 }
 
 .forecast th {
-  border-bottom: 1px solid #1A0068;
   font-size: 1.25rem;
   padding: 3px;
   width: 20%;

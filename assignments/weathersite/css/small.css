@@ -212,6 +212,7 @@ nav ul {
 
 .socialmedia {
   border: none;
+  padding: 2px;
   display: inline
 }
 
@@ -239,43 +240,33 @@ article img {
   max-width: 300px;
   display: block;
   margin: 10px auto;
-  box-shadow: 0 0 10px 5px #000000;
+  box-shadow: 0 0 10px 5px #000000
 }
 
 article {
   background-color: #1A0068;
   padding: 20px;
   margin: 15px auto;
-  border: 1px solid #000000;
+  border: 1px solid #000000
 }
 
 article p {
   margin: 10px auto;
-  color: #ffffff;
-}
-
-.tab {
-  float: left;
-  width: 20px;
-  height: 20px;
-}
-.socialmedia {
-  border: none;
-  padding: 2px;
-  display: inline;
+  color: #ffffff
 }
 
 .contact {
   background-color: #ffffff;
-  display: inline-block;
-  margin: 15px auto 0px;
-  padding: 10px;
+  margin: 15px auto 0;
+  padding: .5em;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+  align-items: center
 }
 
-#map {
-  max-width: 250px;
+.map {
+  max-width: 150px;
   margin: 0 auto;
   display: inline-block;
   border: 2px solid #D1FAFF;

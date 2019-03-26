@@ -103,7 +103,7 @@ nav ul {
   flex-direction: column nowrap;
 }
 
-.nav li:first-child {
+.navigation li:first-child {
    display: block;
 }
 

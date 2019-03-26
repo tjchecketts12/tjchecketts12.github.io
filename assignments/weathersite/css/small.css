@@ -370,7 +370,7 @@ form label.sbs input {
   margin: 0 .75em
 }
 
-form label.top, form div {
+form label.top, form label.btm form div {
   padding: 1em;
   font-size: 1em
 }
@@ -382,6 +382,16 @@ form label.top input, form label.top select, form label.top textarea {
   font-size: 1em;
   border: 1px solid #1A0068;
   width: 100%;
+  background-color: #D1FAFF
+}
+
+form label.btm {
+  border-radius: 7px;
+  display: block;
+  font-size: 1em;
+  border: 1px solid #1A0068;
+  width: 100%;
+  height: 100px;
   background-color: #D1FAFF
 }
 

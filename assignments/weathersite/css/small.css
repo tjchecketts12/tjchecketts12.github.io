@@ -57,11 +57,6 @@ footer {
   margin: 0 auto;
 }
 
-footer .small a {
-  color: #ffffff;
-  text-decoration:none
-}
-
 nav {
   list-style-type: none;
   margin: 0;
@@ -284,12 +279,13 @@ article p {
   grid-row-start: 2;
 }
 
-article .small a {
+small a {
   color: #ffffff;
+  text-decoration:none
 }
 
 :visited :active {
-  color: #D1FAFF;
+  color: #D1FAFF
 }
 
 .eventarticle { 
@@ -316,37 +312,37 @@ article .small a {
 }
 
 .contact article .name {
-	font-weight:700;
+	font-weight:700
 }
 
 .contact article .name li {
 	font-weight:400
 }
 
-  .gal {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+.gal {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr
+}
 
-  .gal figure {
-    padding: 1rem;
-    margin: .5rem;
-    font-style: italic;
-    box-shadow: 0 0 5px 5px #D1FAFF;
-  }
+.gal figure {
+  padding: 1rem;
+  margin: .5rem;
+  font-style: italic;
+  box-shadow: 0 0 5px 5px #D1FAFF;
+}
 
-  .gal figure img {
-    width: 100%;
-  }
+.gal figure img {
+  width: 100%;
+}
 
-  /* FORM */
-  form fieldset {
-    margin: 1rem;
-    border: 2px solid #1A0068;
-    border-radius: 7px;
-    padding: 1rem;
-  }
+/* FORM */
+form fieldset {
+  margin: 1rem;
+  border: 2px solid #1A0068;
+  border-radius: 7px;
+  padding: 1rem;
+}
 
   form legend {
     margin: 0 3rem;

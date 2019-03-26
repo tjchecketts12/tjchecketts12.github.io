@@ -73,10 +73,11 @@ nav li {
   padding: 2em 4em;
   font-size: 1.5em;
   height: 100%;
-  line-height: 2em
+  line-height: 1.5em
 }
 
 nav a {
+  padding: 2em 4em;
   color: #1A0068;
   text-decoration: none;
   display: block;

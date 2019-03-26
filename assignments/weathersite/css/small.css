@@ -213,7 +213,7 @@ nav ul {
 
 .socialmedia {
   border: none;
-  padding: 2px;
+  max-height: 1em;
   display: inline
 }
 

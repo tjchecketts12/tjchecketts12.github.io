@@ -370,7 +370,7 @@ form label.sbs input {
   margin: 0 .75em
 }
 
-form label.top, form label.btm form div {
+form label.top, form div {
   padding: 1em;
   font-size: 1em
 }

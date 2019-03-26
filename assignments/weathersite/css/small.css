@@ -84,7 +84,8 @@ nav a {
 
 nav a.active {
   background-color: #FF6932;
-  color: #1A0068
+  color: #1A0068;
+  font-weight: 700
 }
 
 nav a:hover:not(.active) {

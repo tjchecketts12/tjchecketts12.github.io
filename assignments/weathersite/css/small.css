@@ -281,6 +281,7 @@ article p {
 
 small a {
   color: #D1FAFF;
+  text-decoration:none
 }
 
 :visited :active {

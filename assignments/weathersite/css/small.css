@@ -70,14 +70,14 @@ nav {
 nav li { 
   font-family: 'Bangers', "Comic Sans MS", cursive;
   display: none;
-  padding: 2em 4em;
-  font-size: 1.5em;
+  padding: .36em;
+  font-size: 1.5rem;
   height: 100%;
   line-height: 1.5em
 }
 
 nav a {
-  padding: 2em 4em;
+  padding: .36em 1em;
   color: #1A0068;
   text-decoration: none;
   display: block;

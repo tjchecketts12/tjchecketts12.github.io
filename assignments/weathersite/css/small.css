@@ -328,62 +328,74 @@ small a {
   padding: 1rem;
   margin: .5rem;
   font-style: italic;
-  box-shadow: 0 0 5px 5px #D1FAFF;
+  box-shadow: 0 0 10px 5px #D1FAFF;
 }
 
 .gal figure img {
   width: 100%;
 }
 
-/* FORM */
-form fieldset {
-  margin: 1rem;
-  border: 2px solid #1A0068;
-  border-radius: 7px;
-  padding: 1rem;
+
+form {
+  max-width: 25em;
+}
+form, form fieldset {
+  display: grid;
+  align-items: center:
+  justify-items: center
 }
 
-  form legend {
-    margin: 0 3rem;
-    padding: 0 .5rem;
-    font-size: 1.25rem;
-  }
+form fieldset {
+  padding: 1em;
+  border: none;
+  grid-template-rows: auto;
+  width: 100%
+  
+}
 
-  form label.top, form div {
-    display: block;
-    padding: 1rem;
-    color: #000000;
-    font-size: 1rem;
-  }
+form legend {
+  padding: .75em;
+  font-size: 1.25em;
+  color: #000000;
+  font-weight: bolder;
+  background-color: #D1FAFF;
+  width: 100%
+}
 
-  form label.top input,
-  form label.top select,
-  form label.top textarea {
-    padding: .75rem;
-    border-radius: 7px;
-    display: block;
-    font-size: 1rem;
-    border: 1px solid #1A0068;
-    max-width: 20rem;
-    background-color: #D1FAFF;
-  }
+form label.sbs {
+  padding: 1em
+}
 
-  form label.sbs {
-    display: block;
-    padding: .75rem;
-  }
+form label.sbs input {
+  margin: 0 .75em
+}
 
-  form input.submitButton {
-    margin: 1.5rem 3.5rem;
-    padding: 1rem;
-    border-radius: 7px;
-    border: 1px solid #1A0068;
-    background-color: #FF6932;
-    color: #1A0068;
-    font-size: 1.5rem;
-    width: 100%;
-    max-width: 20rem;
-  }
+form label.top, form div {
+  padding: 1em;
+  font-size: 1em;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+  padding: .75em;
+  border-radius: 7px;
+  display: block;
+  font-size: 1em;
+  border: 1px solid #1A0068;
+  width: 100%;
+  background-color: #D1FAFF
+}
+
+.submitButton {
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 7px;
+  border: 1px solid #1A0068;
+  background-color: #FF6932;
+  color: #1A0068;
+  font-size: 1.5rem;
+  width: 50%;
+  white-space: normal
+}
 
   form label.top input:required {
     border-left: 5px solid #FF6932;

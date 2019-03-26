@@ -1,4 +1,4 @@
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 650px) {
 
     .navigation {
         flex-flow: row nowrap;

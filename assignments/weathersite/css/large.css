@@ -1,4 +1,4 @@
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 768px) {
 
     .gal {
         grid-template-columns: 1fr 1fr 1fr;

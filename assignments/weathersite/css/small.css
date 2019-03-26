@@ -372,7 +372,7 @@ form label.sbs input {
 
 form label.top, form div {
   padding: 1em;
-  font-size: 1em;
+  font-size: 1em
 }
 
 form label.top input, form label.top select, form label.top textarea {
@@ -397,73 +397,70 @@ form label.top input, form label.top select, form label.top textarea {
   white-space: normal
 }
 
-  form label.top input:required {
-    border-left: 5px solid #FF6932;
-  }
+form label.top input:required {
+  border-left: 5px solid #FF6932
+}
 
-  form label.top input:required:valid {
-    border-left: 5px solid #1A0068;
-  }
+form label.top input:required:valid {
+  border-left: 5px solid #1A0068
+}
 
-  form label.top #ratingvalue {
-    display: inline-block;
-    text-align: right;
-    margin-left: 12rem;
-  }
+form label.top #ratingvalue {
+  display: inline-block;
+  text-align: right;
+  margin-right: 1em;
+  width: 40%
+}
 
-  /* Thank You Page */
-
-  .thankyou {
-    font-size: 2rem;
-    font-weight: normal;
-    text-align: center;
-    margin: 2rem;
-  }
-
-  /* Homepage Cards */
+.thankyou {
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+  margin: 2em
+}
   
-  #cityinfo {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0;
-    margin: 1em auto;
+#cityinfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0;
+  margin: 1em auto
 }
 
 #cityinfo a {
-    color: #1A0068;
-    background-color: #FF6932;
-    border: 4px solid #1A0068;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    width: 100%;
-    max-width: 400px;
-    margin: 1em auto;
+  color: #1A0068;
+  background-color: #FF6932;
+  border: 4px solid #1A0068;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 1em auto;
 }
 
 #cityinfo h2 {
-    font-family: 'Acme', Gadget, sans-serif;
-    padding: .2em;
-    font-weight: bolder;
-    font-size: 2rem;
+  font-family: 'Acme', Gadget, sans-serif;
+  padding: .2em;
+  font-weight: bolder;
+  font-size: 2rem;
 }
 
 #cityinfo img {
-    width: 100%;
-    margin: 0;
-    vertical-align: bottom;
+  width: 100%;
+  margin: 0;
+  vertical-align: bottom;
 }
 
 #cityinfo h3 {
-    font-size: 1rem;
-    padding: .2em 1em;
-    font-style: italic;
+  font-size: 1rem;
+  padding: .2em 1em;
+  font-style: italic;
 }
 
 #cityinfo .citylabel {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #cityinfo p {
-    margin: .5em auto;
+  margin: .5em auto;
 }

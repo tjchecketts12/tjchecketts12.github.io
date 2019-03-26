@@ -288,12 +288,8 @@ small a {
   color: #ffffff;
 }
 
-.contacth4 {
-	color:#f1efeb;
-	text-shadow:0 0 5px #212930
-} 
-
 .eventarticle { 
+  background-color: #ffffff;
 	border: none;
 	display: inline-block;
 	grid-row-start: 3;
@@ -308,12 +304,11 @@ small a {
 }
 
 .contact article li {
-	color:#f1efeb
+	color: #000000
 }
 
 .contact article .name {
 	font-weight:700;
-	text-shadow:0 0 5px #212930
 }
 
 .contact article .name li {

@@ -57,6 +57,11 @@ footer {
   margin: 0 auto;
 }
 
+footer .small a {
+  color: #ffffff;
+  text-decoration:none
+}
+
 nav {
   list-style-type: none;
   margin: 0;
@@ -280,12 +285,11 @@ article p {
 }
 
 small a {
-  color: #D1FAFF;
-  text-decoration:none
+  color: #ffffff;
 }
 
 :visited :active {
-  color: #ffffff;
+  color: #D1FAFF;
 }
 
 .eventarticle { 

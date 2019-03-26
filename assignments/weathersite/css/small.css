@@ -70,8 +70,8 @@ nav {
 nav li { 
   font-family: 'Bangers', "Comic Sans MS", cursive;
   display: none;
-  padding: .25em;
-  font-size: .62em;
+  padding: .15em;
+  font-size: .35em;
   height: 100%
 }
 
